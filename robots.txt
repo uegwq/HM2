@@ -1,1 +1,1 @@
-Sitemap: https://uegwq.github.io/ObsidianQuartoTemplate/sitemap.xml
+Sitemap: https://uegwq.github.io/HM2/sitemap.xml

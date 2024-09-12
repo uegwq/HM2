@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A cool template">
+<meta name="description" content="Vorlesungsnotizen für die Voelsungs Höhere Mathematik 2 von Dr Patrick Tolksdorf im SS 24">
 
-<title>_TEMPLATE</title>
+<title>Vorlesungsnotizen Höhere Mathematik 2 – _TEMPLATE</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -82,7 +111,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">The Index file you are seing right now</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      _TEMPLATE
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -110,22 +141,10 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">The Index file you are seing right now</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./README.md" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Readme file for good measures</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">The Readme file but as a section</span></a>
+ <span class="menu-text">1 Analysis in C</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -133,18 +152,370 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">THIS IS A TEMPLATE</span></a>
+  <a href="./1 Analysis in C/Betrag einer Komplexen Zahl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Betrag einer Komplexen Zahl</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Testfile.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Testfile.html</span></a>
+  <a href="./1 Analysis in C/Die komplexe Exponentialfunktion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Die komplexe Exponentialfunktion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Geisteskranke Eselsbrücke.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geisteskranke Eselsbrücke</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Komplexe Potenzreihen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Komplexe Potenzreihen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Komplexe Reihen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Komplexe Reihen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Konvergenz Komplexer Folgen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Konvergenz Komplexer Folgen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Multiplikation komplexer Zahlen easy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Multiplikation komplexer Zahlen easy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1 Analysis in C/Polarkoordinaten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Polarkoordinaten</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">2 Fourrier Reihen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2 Fourrier Reihen/Fourierreihe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fourierreihe</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2 Fourrier Reihen/Komplexe Fourierreihen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Komplexe Fourierreihen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2 Fourrier Reihen/Stückweise Glatte Funktion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stückweise Glatte Funktion</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">3 Der Raum Rn</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in <span class="math inline">\(\Bbb R^n\)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3 Der Raum Rn/Definitionen des Rn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Definitionen des <span class="math inline">\(\Bbb R^n\)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3 Der Raum Rn/Epsilon-Umgebung in Rn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Epsilon-Umgebung in Rn</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3 Der Raum Rn/Matrix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matrix</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">4 Konvergenz in Rn</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">5 Grenzwerte bei Funktionen, Stetigkeit</span></span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">6 Differentialrechnung in Rn</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/(vollständige) Ableitung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">(vollständige) Ableitung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Der Mittelwertsatz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Der Mittelwertsatz</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Gradient.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gradient</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Hesse Matrix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hesse Matrix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Kettenregel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kettenregel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Matrix definit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matrix definit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Partielle Ableitung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Partielle Ableitung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Richtungsableitung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Richtungsableitung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Satz von Schwarz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Satz von Schwarz</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Satz von Taylor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Satz von Taylor</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6 Differentialrechnung in Rn/Streckenzug.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Streckenzug</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">7 Differentialrechnung im Rn</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7 Differentialrechnung im Rn/Der Umkehrsatz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Der Umkehrsatz</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7 Differentialrechnung im Rn/Differenzierbarkeit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Differenzierbarkeit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7 Differentialrechnung im Rn/Jacobimatrix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Jacobimatrix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Satz über implizit Definierte Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">8 Intergration in Rn</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8 Intergration in Rn/Integration in Rn.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Integration in Rn</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8 Intergration in Rn/Messbare Mengen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Messbare Mengen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8 Intergration in Rn/Prinzip von Cavalieri.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prinzip von Cavalieri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8 Intergration in Rn/Satz von Fubini.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Satz von Fubini</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8 Intergration in Rn/Substitutionsregel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Substitutionsregel</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+ <span class="menu-text">9 Spezielle Differentialgleichungen 1. Ordnung</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Differentialgleichung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Differentialgleichungen mit getrennten Veränderlichen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lineare Differentialgleichungen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Lösungsmethoden</span></span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Separierbare, getrennte Variablen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./10 Lineare Systeme mit konstanten Koeffizienten/10 Lineare Systeme mit konstanten Koeffizienten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10 Lineare Systeme mit konstanten Koeffizienten</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">lineares Differentialgleichungssystem</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+ <span class="menu-text">12 Fouriertransformation</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12 Fouriertransformation/Faltung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Faltung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12 Fouriertransformation/Fouriertransformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fouriertransformation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12 Fouriertransformation/Inverse Fouriertranformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inverse Fouriertranformation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./KLAUSURINFOS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">KLAUSURINFOS</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -155,7 +526,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#this-is-a-template" id="toc-this-is-a-template" class="nav-link active" data-scroll-target="#this-is-a-template">THIS IS A TEMPLATE</a></li>
+  <li><a href="#höhere-mathematik-2" id="toc-höhere-mathematik-2" class="nav-link active" data-scroll-target="#höhere-mathematik-2">HÖHERE MATHEMATIK 2</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/quarto-dev/quarto-demo/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/quarto-dev/quarto-demo/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -168,7 +539,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    <p>A cool template</p>
+    <p>Vorlesungsnotizen für die Voelsungs Höhere Mathematik 2 von Dr Patrick Tolksdorf im SS 24</p>
   </div>
 </div>
 
@@ -179,7 +550,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21. April 1999</p>
+      <p class="date">12. September 2024</p>
     </div>
   </div>
   
@@ -191,9 +562,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="this-is-a-template" class="level2">
-<h2 class="anchored" data-anchor-id="this-is-a-template">THIS IS A TEMPLATE</h2>
-<p>And this is a very interesting text indeed :)</p>
+<section id="höhere-mathematik-2" class="level2">
+<h2 class="anchored" data-anchor-id="höhere-mathematik-2">HÖHERE MATHEMATIK 2</h2>
+<p>Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung “Höhere Mathematik 2”! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im <span class="math inline">\(\Bbb R^n\)</span> hier ist alles dabei, was für die Vorlesung relevant war.</p>
+<p>Aber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.</p>
+<p>Viel Erfolg beim Lernen und viel Spaß beim Durchklicken!</p>
+<p>Infos zur Klausur:</p>
+<p><a href="./KLAUSURINFOS.html">KLAUSURINFOS</a></p>
 
 
 </section>
@@ -435,7 +810,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/uegwq\.github\.io\/ObsidianQuartoTemplate\/");
+      var filterRegex = new RegExp("https:\/\/uegwq\.github\.io\/HM2\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
