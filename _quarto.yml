@@ -12,15 +12,75 @@ website:
     style: "docked"
     search: true
     contents:
-      - text: "The Index file you are seing right now"
-        href: "index.qmd"
-      - text: "The Readme file for good measures"
-        href: "README.md"
-      - section: "The Readme file but as a section"
+      - section: "1 Analysis in C"
         contents:
-          - "README.md"
-          - "index.qmd"
-          - "Testfile.md"
+        - "1 Analysis in C/Betrag einer Komplexen Zahl.md"
+        - "1 Analysis in C/Die komplexe Exponentialfunktion.md"
+        - "1 Analysis in C/Geisteskranke Eselsbrücke.md"
+        - "1 Analysis in C/Komplexe Potenzreihen.md"
+        - "1 Analysis in C/Komplexe Reihen.md"
+        - "1 Analysis in C/Konvergenz Komplexer Folgen.md"
+        - "1 Analysis in C/Multiplikation komplexer Zahlen easy.md"
+        - "1 Analysis in C/Polarkoordinaten.md"
+      - section: "2 Fourrier Reihen"
+        contents:
+        - "2 Fourrier Reihen/Fourierreihe.md"
+        - "2 Fourrier Reihen/Komplexe Fourierreihen.md"
+        - "2 Fourrier Reihen/Stückweise Glatte Funktion.md"
+      - section: "3 Der Raum Rn"
+        contents:
+        - "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.md"
+        - "3 Der Raum Rn/Definitionen des Rn.md"
+        - "3 Der Raum Rn/Epsilon-Umgebung in Rn.md"
+        - "3 Der Raum Rn/Matrix.md"
+      - section: "4 Konvergenz in Rn"
+        contents:
+      - section: "5 Grenzwerte bei Funktionen, Stetigkeit"
+        contents:
+      - section: "6 Differentialrechnung in Rn"
+        contents:
+        - "6 Differentialrechnung in Rn/(vollständige) Ableitung.md"
+        - "6 Differentialrechnung in Rn/Der Mittelwertsatz.md"
+        - "6 Differentialrechnung in Rn/Gradient.md"
+        - "6 Differentialrechnung in Rn/Hesse Matrix.md"
+        - "6 Differentialrechnung in Rn/Kettenregel.md"
+        - "6 Differentialrechnung in Rn/Matrix definit.md"
+        - "6 Differentialrechnung in Rn/Partielle Ableitung.md"
+        - "6 Differentialrechnung in Rn/Richtungsableitung.md"
+        - "6 Differentialrechnung in Rn/Satz von Schwarz.md"
+        - "6 Differentialrechnung in Rn/Satz von Taylor.md"
+        - "6 Differentialrechnung in Rn/Streckenzug.md"
+      - section: "7 Differentialrechnung im Rn"
+        contents:
+        - "7 Differentialrechnung im Rn/Der Umkehrsatz.md"
+        - "7 Differentialrechnung im Rn/Differenzierbarkeit.md"
+        - "7 Differentialrechnung im Rn/Jacobimatrix.md"
+        - "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.md"
+      - section: "8 Intergration in Rn"
+        contents:
+        - "8 Intergration in Rn/Integration in Rn.md"
+        - "8 Intergration in Rn/Messbare Mengen.md"
+        - "8 Intergration in Rn/Prinzip von Cavalieri.md"
+        - "8 Intergration in Rn/Satz von Fubini.md"
+        - "8 Intergration in Rn/Substitutionsregel.md"
+      - section: "9 Spezielle Differentialgleichungen 1. Ordnung"
+        contents:
+        - "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichung.md"
+        - "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.md"
+        - "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.md"
+        - section: "Lösungsmethoden"
+          contents:
+        - "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.md"
+      - section: "10 Lineare Systeme mit konstanten Koeffizienten"
+        href: 10 Lineare Systeme mit konstanten Koeffizienten/10 Lineare Systeme mit konstanten Koeffizienten.md
+        contents:
+        - "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.md"
+      - section: "12 Fouriertransformation"
+        contents:
+        - "12 Fouriertransformation/Faltung.md"
+        - "12 Fouriertransformation/Fouriertransformation.md"
+        - "12 Fouriertransformation/Inverse Fouriertranformation.md"
+      - "KLAUSURINFOS.md"
 
 execute:
   freeze: true

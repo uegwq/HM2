@@ -1,7 +1,6 @@
 <!--TAGS-->
 ---
-date: 1999-04-21
-pagetitle: "_TEMPLATE"
+pagetitle: "Vorlesungsnotizen Höhere Mathematik 2"
 # page-layout: custom
 # when using "page-layout :custom" it just doesnt load the sidebar
 # section-divs: false
@@ -9,7 +8,7 @@ toc: true
 # toc means table of contents, thats a link to all sections
 # when using the quarto standart page layout the table of contents shows on the right # side of the screen :)
 description: | 
-  A cool template
+  Vorlesungsnotizen für die Voelsungs Höhere Mathematik 2 von Dr Patrick Tolksdorf im SS 24
 #hide-description: true
 #image: quarto-dark-bg.jpeg
 #resources: 
@@ -17,6 +16,14 @@ description: |
 ---
 <!--/TAGS-->
 
-## THIS IS A TEMPLATE
+## HÖHERE MATHEMATIK 2
 
-And this is a very interesting text indeed :)
+
+Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung "Höhere Mathematik 2"! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im $\Bbb R^n$ hier ist alles dabei, was für die Vorlesung relevant war.
+
+Aber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.
+
+Viel Erfolg beim Lernen und viel Spaß beim Durchklicken!
+
+Infos zur Klausur:
+[[KLAUSURINFOS]]
