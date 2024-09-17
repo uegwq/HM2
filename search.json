@@ -1,46 +1,540 @@
 [
   {
-    "objectID": "8 Intergration in Rn/Satz von Fubini.html#folgerung-aus-dem-satz",
-    "href": "8 Intergration in Rn/Satz von Fubini.html#folgerung-aus-dem-satz",
+    "objectID": "HM2 Bonustutorium.html#themen",
+    "href": "HM2 Bonustutorium.html#themen",
     "title": "_TEMPLATE",
-    "section": "Folgerung aus dem Satz",
-    "text": "Folgerung aus dem Satz\n\n\\(f\\in R(I)\\), \\(I\\subseteq \\Bbb R^n\\) kompaktes Rechteck\n\\[\\implies\\int_If(x_1,x_2,\\dots,x_n)d(x_1,x_2,\\dots,x_n)=\\int_{a_1}^{b_1}\\int_{a_2}^{b_2}\\dots\\int_{a_n}^{b_n}f(x_1,x_2,\\dots,x_n)dx_ndx_{n-1}\\dots dx_1\\]Die Reihenfolge ist vertauschbar (mit den Intervallen aber auch klarer weise!)\n\\(f(x,y)=g(x)h(y)\\)\n\\(\\implies \\int_I f(x,y)d(x,y)=\\int_{x_1}^{x_2}g(x)dx\\cdot\\int_{y_1}^{y_2}h(y)dy\\). (WEIL: wenn ich nach x ableite ist der andere Faktor konstant rofllll!!!!! schwichtigggg)\nAlso bei solchen aufgaben: 1. sind die zu integrierenden funktionen irgendwie produkte oder in welcher Reihenfolge ist es am schlausten zu integrieren?",
-    "crumbs": [
-      "8 Intergration in Rn",
-      "Satz von Fubini"
-    ]
+    "section": "Themen",
+    "text": "Themen\n\n\nFouriertransformationen\n\nPolar & Kugelkoordinaten\nLineare DGL - Systeme\nGleichmäßige Stetigkeit\npunktweise / gleichmäßige Konvergenz\nimplizite Funktionen\nGrenzwerte im Mehrdimensionalen"
   },
   {
-    "objectID": "8 Intergration in Rn/Satz von Fubini.html#siehe-auch",
-    "href": "8 Intergration in Rn/Satz von Fubini.html#siehe-auch",
+    "objectID": "HM2 Bonustutorium.html#siehe-auch",
+    "href": "HM2 Bonustutorium.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "8 Intergration in Rn",
-      "Satz von Fubini"
-    ]
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
   },
   {
-    "objectID": "8 Intergration in Rn/Integration in Rn.html#definition",
-    "href": "8 Intergration in Rn/Integration in Rn.html#definition",
+    "objectID": "Testfile.html",
+    "href": "Testfile.html",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "Hello this is a test! Will this be displayed in the website?"
+  },
+  {
+    "objectID": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#definition",
+    "href": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\nEs sei \\(B\\subseteq\\Bbb R^n\\) messbar, \\(f:I\\rightarrow\\Bbb R\\) (mit \\(B\\subseteq I\\)), dann def:\n\\(f_B(x)=\\begin{cases}f(x) & x\\in B \\\\ 0 & x\\not\\in B\\end{cases}=c_B(x)\\cdot f(x)\\)\n\\(f\\) sei dann über \\(B\\) integrierbar, wenn \\(f_B(x)\\in R(I)\\).\n\n\\(f,g\\in R(I)\\), \\(f\\le g\\),\n\\(M_{f,g}:=\\{(x,y)\\in\\Bbb R^{n+1},x\\in B, f(x)\\le y \\le g(x)\\}\\).\n\\(B=\\{(x,y)\\in\\Bbb R^2|f(x)\\le y \\le g(x)\\}\\).\\(f,g:[a,b]\\rightarrow\\Bbb R\\) stetig, \\(f\\le g\\).\n  Hier ist $B$ dann der Normalbereich bezüglich der $x$-Achse, weil sie so beschränkt wird von $f$ und $g$.\n\n  Und dann ist $B$ messbar. So macht man messbarkeit.",
+    "text": "Definition\n\nEs sei \\(𝐷 ⊆ \\Bbb R^ 𝑛\\) offen, \\(𝑓 ∈ 𝐶^ 1 (𝐷, \\Bbb R^ 𝑛 )\\) und \\(𝑥_0 ∈ 𝐷\\). Ist \\(\\det 𝑓 ' (𝑥_0) \\not=0,\\) so existiert ein \\(𝛿 &gt; 0\\) mit:\n\n\\(𝑈_𝛿(𝑥_0) ⊆ 𝐷\\) und \\(𝑓(𝑈_𝛿(𝑥_0))\\) ist offen,\n\\(𝑓\\) ist auf \\(𝑈_𝛿(𝑥_0)\\) injektiv,\n\\(𝑓^{−1} : 𝑓(𝑈_𝛿(𝑥_0)) → 𝑈_𝛿(𝑥_0)\\) ist in \\(𝐶^1 (𝑓(𝑈_𝛿(𝑥_0)),\\Bbb  R^ 𝑛 )\\),\n\\(\\det 𝑓 ' (𝑥) \\not=0 (𝑥 ∈ 𝑈_𝛿(𝑥_0)\\)) und\n\\((︁ 𝑓^{−1} )︁' (𝑦)\\) = \\((︁ 𝑓 ' (︁ 𝑓 ^{−1} (𝑦) )︁)︁^{−1} (𝑦 ∈ 𝑓(𝑈_𝛿(𝑥_0))).\\)",
     "crumbs": [
-      "8 Intergration in Rn",
-      "Integration in Rn"
+      "7 Differentialrechnung im Rn",
+      "Der Umkehrsatz"
     ]
   },
   {
-    "objectID": "8 Intergration in Rn/Integration in Rn.html#siehe-auch",
-    "href": "8 Intergration in Rn/Integration in Rn.html#siehe-auch",
+    "objectID": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#siehe-auch",
+    "href": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "8 Intergration in Rn",
-      "Integration in Rn"
+      "7 Differentialrechnung im Rn",
+      "Der Umkehrsatz"
+    ]
+  },
+  {
+    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#definition",
+    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n\\(f\\) heißt in \\(x_0\\in D\\) differenzierbar \\(\\iff\\) es existiert eine \\(m\\times n\\)-Matrix \\(A\\) mit\n\\(\\lim_{h\\rightarrow 0}\\frac{f(x_0+h)-f(x_0)-Ah}{\\Vert h \\Vert}\\)\n\\(A\\) ist wenn sie existiert die Jaxobimatrix.",
+    "crumbs": [
+      "7 Differentialrechnung im Rn",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#satz-dazu",
+    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#satz-dazu",
+    "title": "_TEMPLATE",
+    "section": "Satz dazu",
+    "text": "Satz dazu\n\n\n\\(f\\) ist in \\(x_0\\) differenzierbar \\(\\iff\\) Alle \\(f_j\\) sind in \\(x_0\\) differenzierbar. In diesem fall gilt\n\n\\(f\\) ist in \\(x_0\\) stetig\n\\(f\\) ist in \\(x_0\\) partiell differenzierbar\nDie Matrix \\(A\\) ist eindeutig die Jacobimatrix.\n\nIst \\(f\\) in \\(x_0\\) differenzierbar, so heißt \\(f'(x_0):=J_f(x_0)\\) die Ableitung von \\(f\\) in \\(x_0\\).",
+    "crumbs": [
+      "7 Differentialrechnung im Rn",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#anderer-satz-mit-partiellen-ableitungen-wie-kapitel-6",
+    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#anderer-satz-mit-partiellen-ableitungen-wie-kapitel-6",
+    "title": "_TEMPLATE",
+    "section": "Anderer Satz mit partiellen Ableitungen wie Kapitel 6",
+    "text": "Anderer Satz mit partiellen Ableitungen wie Kapitel 6\n\n$$ D x_0 f x_0 \n]$$\n$$\n f C^1(D, ^m), f D \n$$",
+    "crumbs": [
+      "7 Differentialrechnung im Rn",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#siehe-auch",
+    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Differentialrechnung im Rn",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#definition",
+    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n\\(f\\) heißt in \\(x_0\\) partiell differenzierbar nach \\(x_i\\) \\(\\iff\\) es existiert der Grenzwert \\(\\partial_{x_i}f(x_0)=\\frac{\\partial f}{\\partial x_i}(x)=\\lim_{t\\rightarrow 0}\\frac{f(x_0+te_i)-f(x_0)}{t}\\)\nMan hält also alle variablen fest und leitet nach \\(x_i\\) ab.",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Partielle Ableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#schreibweisen",
+    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#schreibweisen",
+    "title": "_TEMPLATE",
+    "section": "Schreibweisen",
+    "text": "Schreibweisen",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Partielle Ableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nRichtungsableitung\n(vollständige) Ableitung\nDer Mittelwertsatz\nGradient\nKettenregel\nHesse Matrix\nSatz von Schwarz",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Partielle Ableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtung",
+    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtung",
+    "title": "_TEMPLATE",
+    "section": "Richtung",
+    "text": "Richtung\n\nWir nennen einen Vektor \\(a\\in\\Bbb R^n\\) mit \\(||a||=1\\) Richtung bzw Richtungsvektor.",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Richtungsableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtungsableitung-1",
+    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtungsableitung-1",
+    "title": "_TEMPLATE",
+    "section": "Richtungsableitung",
+    "text": "Richtungsableitung\n\nSeien \\(x_0\\in D\\) und \\(a\\in\\Bbb R^n\\) eine Richtung. Die Funktion \\(f\\) heißt in \\(x_0\\) in Richtung \\(a\\) differenzierbar, falls der Grenzwert \\[\\frac{\\partial f}{\\partial a}= \\lim_{t\\rightarrow 0}\\frac{f(x_0+ta)-f(x_0)}{t}\\] existiert.\nIn diesem Fall heißt \\(\\frac{\\partial f}{\\partial x}(x_0)\\) Richtungsableitung von f in \\(x_0\\) in Richtung \\(a\\).",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Richtungsableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Richtungsableitung"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#definition",
+    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nSeien \\(𝑓 : 𝐷 → R\\) auf \\(𝐷\\) differenzierbar, \\(𝑎, 𝑏 ∈ 𝐷\\) und \\(𝑆[𝑎, 𝑏] ⊆ 𝐷\\). Dann existiert ein \\(𝜉 ∈ 𝑆[𝑎, 𝑏]\\) mit \\[𝑓(𝑏) − 𝑓(𝑎) = 𝑓' (𝜉) · (𝑏 − 𝑎)\\]",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Der Mittelwertsatz"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#folgerung",
+    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#folgerung",
+    "title": "_TEMPLATE",
+    "section": "Folgerung",
+    "text": "Folgerung\n\nIst \\(D\\) ein Gebiet, \\(f:D\\rightarrow\\Bbb R\\) differentierbar auf \\(D\\) und gilt \\(f'(x)=0\\), \\((\\forall x\\in D)\\), so ist \\(f\\) auf \\(D\\) konstant.",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Der Mittelwertsatz"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Der Mittelwertsatz"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Kettenregel.html#definition",
+    "href": "6 Differentialrechnung in Rn/Kettenregel.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nSind \\(I\\subseteq\\Bbb R\\) ein Intervall, \\(g=(g_1,\\dots,g_n:I\\rightarrow \\Bbb R^n\\) differenzierbar in \\(t_0\\in I, g(I)\\subseteq D\\) und \\(f\\) in \\(x_0=g(t_0)\\) differenzierbar. So ist \\(f\\circ g:I\\rightarrow \\Bbb R\\) differenzierbar in \\(t_0\\) und\n\\((f\\circ g)'(t_0)=f'(g(t_0))\\cdot g'(t_0)\\), wobei “\\(\\cdot\\)” das Skalarprodukt ist.",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Kettenregel"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Kettenregel.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Kettenregel.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Kettenregel"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#definition",
+    "href": "6 Differentialrechnung in Rn/Matrix definit.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nDefinition: Eine reelle und symmetrische \\(𝑛 × 𝑛\\)-Matrix \\(𝐴\\) heißt\n\npositiv definit (pd) :\\(\\iff ∀𝑥 ∈ \\Bbb R^ 𝑛 ∖ \\{0\\} : (𝐴𝑥) · 𝑥 &gt; 0.\\)\nnegativ definit (nd) :\\(\\iff ∀𝑥 ∈ \\Bbb R^ 𝑛 ∖ \\{0\\} : (𝐴𝑥) · 𝑥 &lt; 0.\\)\nindefinit (id) :\\(\\iff ∃𝑢, 𝑣 ∈ \\Bbb R^ 𝑛 : (𝐴𝑢) · 𝑢 &gt; 0 \\text{ und } (𝐴𝑣) · 𝑣 &lt; 0.\\)",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Matrix definit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#eigenwerte",
+    "href": "6 Differentialrechnung in Rn/Matrix definit.html#eigenwerte",
+    "title": "_TEMPLATE",
+    "section": "Eigenwerte ????????",
+    "text": "Eigenwerte ????????\n\n\nFür eine reelle und symmetrische \\(𝑛 × 𝑛\\)-Matrix \\(𝐴\\) gilt:\n\n\\(A\\) ist positiv definit \\(\\iff\\) alle Eigenwerte sind positiv\n\\(A\\) ist negativ definit \\(\\iff\\) alle Eigenwerte sind negativ\n\\(A\\) ist indefinit \\(\\iff\\) es gibt positive und negative Eigenwerte",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Matrix definit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#lol-folgerung",
+    "href": "6 Differentialrechnung in Rn/Matrix definit.html#lol-folgerung",
+    "title": "_TEMPLATE",
+    "section": "Lol Folgerung",
+    "text": "Lol Folgerung\n\npos definit \\(\\implies\\) minimum\nneg definit \\(\\implies\\) maximum\nindefinit \\(\\implies\\) kein extremum",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Matrix definit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#times-2-spezialfall",
+    "href": "6 Differentialrechnung in Rn/Matrix definit.html#times-2-spezialfall",
+    "title": "_TEMPLATE",
+    "section": "\\(2\\times 2\\) Spezialfall",
+    "text": "\\(2\\times 2\\) Spezialfall\n\nDim 2, \\(H_f=\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\\)\n\ndet \\(H_f&lt;0\\implies\\) indefinit\n\\(det H_f&gt;0\\)\n\n\\(a&gt;0\\) positiv definit\n\\(a&lt;0\\) negativ definit\n\ndet \\(H_f\\)=0 \\(\\implies\\) Keine Aussage",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Matrix definit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Matrix definit.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Matrix definit"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Satz von Schwarz.html#definition",
+    "href": "6 Differentialrechnung in Rn/Satz von Schwarz.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n\\(f\\in C^k(D,\\Bbb R)\\implies\\)Die Reihenfolge nach der abgeleitet wird spielt keine Rolle für das Ergebnis. z.B. gilt für\n\\(f\\in C^2(\\Bbb R^2,\\Bbb R):f_{xy}=f_{yx}\\).",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Satz von Schwarz"
+    ]
+  },
+  {
+    "objectID": "6 Differentialrechnung in Rn/Satz von Schwarz.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Satz von Schwarz.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Differentialrechnung in Rn",
+      "Satz von Schwarz"
+    ]
+  },
+  {
+    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#definition",
+    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(A=(a_{jk})\\) eine reelle \\(n\\times n\\) Matrix und \\(b_j:I\\rightarrow\\Bbb R\\) stetig. Die betrachten das sogenannte lineare Differentialgleichungssystem\n\\(\\begin{matrix} y'_1(x)=a_{11}y_1(x) + a_{12}y_2(x) + \\dots + a_{1n}y_n(x) + b_1(x) \\\\  y'_2(x)=a_{21}y_1(x) + a_{22}y_2(x) + \\dots + a_{2n}y_n(x) +b_2(x) \\\\ \\dots \\\\  y'_n(x)=a_{n1}y_1(x) + a_{n2}y_2(x) + \\dots + a_{nn}y_n(x)+ b_n(x) \\end{matrix}\\)\nman schreibt dann halt \\(y'(x)=Ay(x)+b(x)\\) (inhomogenes System) oder falls \\(b(x)=0\\) \\(y'(x)=Ay(x)\\) (homogenes System)",
+    "crumbs": [
+      "10 Lineare Systeme mit konstanten Koeffizienten",
+      "lineares Differentialgleichungssystem"
+    ]
+  },
+  {
+    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#lösung",
+    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#lösung",
+    "title": "_TEMPLATE",
+    "section": "Lösung",
+    "text": "Lösung\n\nIdee: Lösung von dem homogenen System ist:\n\\[e^{xA}=\\sum^\\infty_{k=0}\\frac 1 {k!}(xA)^k\\]Schreibe \\(A\\) über Jordan-Normalform\n\\(A=S^{-1}JS\\)\n\\(\\rightsquigarrow e^{tA}=S^{-1}e^{tJ}S \\rightsquigarrow\\) Rechne \\(S^{-1}e^{tJ}\\).\n\nVorbemerkung\nIst \\(\\lambda\\in\\Bbb R\\) Eigenwert von \\(A\\), \\(v\\in\\Bbb R^n\\setminus\\{0\\}\\) Eigenvektor…..? :(\n\n\nMethode\n\nBestimme alle Eigenwerte \\(\\lambda_1\\dots,\\lambda_r\\) von \\(A\\).\n(d.h. \\(r\\le n\\)) und deren algebraische Vielfachheiten \\(K_1,\\dots,K_r\\). d.h. \\(p(\\lambda)=(-1)^n(\\lambda-\\lambda_1)^{K_1} \\cdot\\dots\\cdot(\\lambda-\\lambda_n)^{K_n}\\)\n Dann nehmen wir alle Eigenwerte, und sortieren sie nach \n\n 1. reele,\n\n 2. rein Komplexe,\n\n 3. komplexe die nicht auch einen realteil haben \n\n 4. komplexe, die konjugiert sind (also negatives Vorzeichen vor dem Imaginärteil)\n\n 5. Werfe die 4. weg und schreibt die in einer Menge $M$ auf.\nWir nehmen uns jetzt einen Beliebigen Eigenwert \\(\\lambda_j\\in M\\) und wir bestimmen eine Basis \\(V_j:=kern(A-\\lambda_jI)^{k_j}\\).\nDies machen wir so:\nBestimme eine Basis von \\(kern (𝐴 − 𝜆_𝑗𝐼)\\), ergänze diese zu einer Basis von \\(kern (𝐴 − 𝜆_𝑗𝐼) ^2,\\dots\\). (bis \\(K_j\\))\nJez hamma basis \\(V_j\\) für alle Eigenwerte \\(\\lambda_j\\) lolz. Setzt \\[y(x):=e^{\\lambda_jx}\\left(v+\\frac x {1!}(A-\\lambda_jI)v+\\frac{x^2}{2!}(A-\\lambda_jI) ^2+\\dots+\\frac{x^{k_j-1}}{(k_j-1)!}(A-\\lambda_jI)^{k_j-1}v\\right)\\] (j ist die Nummer von dem Eigenwert den wir gerade behandeln, wir suchen uns ein \\(\\lambda_j\\) aus und definieren und so dann die Funktion.)\nSo es gibt jetzt zwei Möglichkeiten:\nFall 1:\n\\(y(x)\\) ist Reelwertig, dann ist \\(y(x)\\) eine Lösung des homogenen Systems\nFalls 2:\n\\(y(x)\\) ist komplexwertig, dann zerlege \\(y(x)=y^{(1)}(x)+iy^{(2)}(x)\\)\n\\(y^{(1)},y^{(2)}\\) sind Lösungen des homogenen Systems.\nFühre 3. für alle \\(\\lambda_j\\in M\\) und Basisvektoren \\(v\\) von \\(V_j\\) durch",
+    "crumbs": [
+      "10 Lineare Systeme mit konstanten Koeffizienten",
+      "lineares Differentialgleichungssystem"
+    ]
+  },
+  {
+    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#siehe-auch",
+    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "10 Lineare Systeme mit konstanten Koeffizienten",
+      "lineares Differentialgleichungssystem"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#definition",
+    "href": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nMan kann sich das richtig gut in Polarkoordinaten vorstellen. Seien \\(z=|z|e^{i\\varphi}\\) sowie \\(w=|w|e^{i\\theta}\\). Es gilt: \\(zw=|z|e^{i\\varphi}|w|e^{i\\theta}=|z||w|e^{i(\\varphi+\\theta)}\\).",
+    "crumbs": [
+      "1 Analysis in C",
+      "Multiplikation komplexer Zahlen easy"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#siehe-auch",
+    "href": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Analysis in C",
+      "Multiplikation komplexer Zahlen easy"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Die komplexe Exponentialfunktion.html#definition",
+    "href": "1 Analysis in C/Die komplexe Exponentialfunktion.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nDie komplexe Exponentialfunktion hat die folgenden Eigenschaften:\n\n\\(\\forall z,w\\in\\Bbb C: e^{z+w}=e^z+e^w\\) sowie \\(\\forall z,w\\in\\Bbb C: e^{nz}=e^{z^n}\\)\n\\(\\bar{e^z}=e^{\\bar{z}}\\).\n\\(e^{iz}=\\cos(z)+i\\sin(z)\\).\n\\(\\cos(z)=1/2(e^{iz}+e^{-it})\\), \\(\\sin(z)=1/2i(e^{iz}+e^{-it})\\),\n\\(\\forall x\\in\\Bbb R: \\left|e^{ix}\\right|=1\\).\nEs gelten auch die Additionstheoreme:\n\\(\\sin(z+w)=\\sin(z)\\cos(w)+\\sin(w)\\cos(z)\\)\n\\(\\cos(z+w)=\\cos(z)\\cos(w)-\\sin(w)\\sin(z)\\)",
+    "crumbs": [
+      "1 Analysis in C",
+      "Die komplexe Exponentialfunktion"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Die komplexe Exponentialfunktion.html#siehe-auch",
+    "href": "1 Analysis in C/Die komplexe Exponentialfunktion.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nPolarkoordinaten",
+    "crumbs": [
+      "1 Analysis in C",
+      "Die komplexe Exponentialfunktion"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Komplexe Potenzreihen.html#definition",
+    "href": "1 Analysis in C/Komplexe Potenzreihen.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nFür eine Potenzreihe \\(\\sum^\\infty_{n=0}a_n(z-z_0)^n\\) sei \\(\\rho=limsup^\\infty_{n\\rightarrow\\infty}\\sqrt {(|a_n|)}_n\\). Der Konvergenzradius ist definiert durch\n\\[r=\\begin{cases}0, & \\text{falls }\\rho=\\infty \\\\ \\infty, & \\text{falls }\\rho=0 \\\\ \\frac{1}{\\rho}, &\\text{falls } \\rho\\in(0,\\infty)\\end{cases}\\]\n\nIst \\(r=0\\), so konvergiert die Potenzreihe nur in \\(z=z_0\\)\nIst \\(r=\\infty\\), so konvergiert die Potenzreihe in jedem \\(z\\in\\Bbb C\\)\nIst \\(0&lt;r&lt;\\infty\\), so konvergiert die Potenzreihe absolut für \\(|z-z_0|&lt;r\\) und divergiert für alle Punkte \\(|z-z_0|&gt;r\\) und für \\(|z-z_0|=r\\) ist keine allgemeingültige Aussage möglich.",
+    "crumbs": [
+      "1 Analysis in C",
+      "Komplexe Potenzreihen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Komplexe Potenzreihen.html#siehe-auch",
+    "href": "1 Analysis in C/Komplexe Potenzreihen.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Analysis in C",
+      "Komplexe Potenzreihen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#definition",
+    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nIst \\(x\\in\\Bbb C\\), so ist der Betrag von \\(z\\) definiert als:\\[|z|:=\\sqrt{z\\cdot \\bar z}\\]Intuition:\nMan kann komplexe Zahlen als Punkt in einer Ebene darstellen, wobei eine Achse der Realteil - und die andere der Imaginärteil ist. Der abstand vom Ursprung zum Punkt in der Ebene ist dann laut dem Satz des Pythagoras \\(|z|=\\sqrt{\\mathfrak R(z)^2+\\mathfrak I (z)^2}\\left(=\\sqrt{z\\cdot\\bar w}\\right)\\).",
+    "crumbs": [
+      "1 Analysis in C",
+      "Betrag einer Komplexen Zahl"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#eigenschaften",
+    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#eigenschaften",
+    "title": "_TEMPLATE",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\nDer Betrag einer komplexen Zahl…\n\nerfüllt \\(|z|=|\\bar z|\\).\nist multiplikativ, d.h.\n\\(|z\\cdot w|= |z|\\cdot|w|\\)\nerfüllt die \\(\\bf\\triangle\\)-Ungleichung :oooooooooooooooo\n\\(|z+w|\\le|z|+|w|\\).",
+    "crumbs": [
+      "1 Analysis in C",
+      "Betrag einer Komplexen Zahl"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#siehe-auch",
+    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nDie komplexe Exponentialfunktion\nKomplexe Reihen\nKonvergenz Komplexer Folgen",
+    "crumbs": [
+      "1 Analysis in C",
+      "Betrag einer Komplexen Zahl"
+    ]
+  },
+  {
+    "objectID": "12 Fouriertransformation/Fouriertransformation.html#definition",
+    "href": "12 Fouriertransformation/Fouriertransformation.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n\\(f: \\Bbb R \\rightarrow\\Bbb C\\) stückweise stetig, absolut integrierbar.\nDefiniere: \\(\\hat f: \\Bbb R\\rightarrow\\Bbb c; S\\mapsto \\frac{1}{2\\pi}\\int^\\infty_\\infty f(t)e^{-ist}dt\\).\n$\\rightarrow$ $\\hat f$ stetig, beschränkt, $\\lim_{s\\rightarrow\\infty} \\hat f(s)=0$\n\\(\\int g(t)dt=\\int Re g(x)dt + i \\int Imgg(t)dt\\)\n\\(\\int e^{ist}dt=\\frac{e^{ist}}{is}\\).",
+    "crumbs": [
+      "12 Fouriertransformation",
+      "Fouriertransformation"
+    ]
+  },
+  {
+    "objectID": "12 Fouriertransformation/Fouriertransformation.html#siehe-auch",
+    "href": "12 Fouriertransformation/Fouriertransformation.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "12 Fouriertransformation",
+      "Fouriertransformation"
+    ]
+  },
+  {
+    "objectID": "12 Fouriertransformation/Inverse Fouriertranformation.html#definition",
+    "href": "12 Fouriertransformation/Inverse Fouriertranformation.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nEs gilt, wenn \\(f:\\Bbb R\\rightarrow\\Bbb C\\) stückweise glatt und absolut integrierbar ist:\n\\(\\forall t\\in\\Bbb R: CH-\\int^\\infty_{-\\infty}\\hat f(x)e^{ist}ds=\\frac1 2(f(t+)+f(t-))\\) und wenn \\(f\\) zusätlich stetig ist, ist das \\(=f(t)\\).",
+    "crumbs": [
+      "12 Fouriertransformation",
+      "Inverse Fouriertranformation"
+    ]
+  },
+  {
+    "objectID": "12 Fouriertransformation/Inverse Fouriertranformation.html#siehe-auch",
+    "href": "12 Fouriertransformation/Inverse Fouriertranformation.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "12 Fouriertransformation",
+      "Inverse Fouriertranformation"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#definition",
+    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(A \\subseteq \\Bbb R^n\\)\n\n\\(A\\) heißt beschränkt \\(\\iff\\) \\(\\exists c\\ge 0\\forall a\\in A: ||a||\\le c\\).\n\\(A\\) heißt offen \\(\\iff\\) \\(\\forall a\\in A \\exists \\delta=\\delta(a)&gt;0: U_\\delta(a)\\subseteq A\\).\n(So ganz einfach wenn wir echte Ungleichungen haben)\n\\(A\\) heißt abgeschlossen \\(\\iff\\) \\(A^C=\\Bbb R^n\\setminus A\\) ist offen.\n(Wenn man eine Ungleichung und zusätzlich noch eine Gleichheit haben)\n\\(A\\) heißt kompakt \\(\\iff\\) \\(A\\) ist beschränkt und abgeschlossen.",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#wichtiger-satz-für-bbb-rn.",
+    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#wichtiger-satz-für-bbb-rn.",
+    "title": "_TEMPLATE",
+    "section": "Wichtiger Satz für \\(\\Bbb R^n\\).",
+    "text": "Wichtiger Satz für \\(\\Bbb R^n\\).\n\n\\(\\Bbb R^n\\) und \\(\\emptyset\\) sind die einzigen Teilmengen von \\(\\Bbb R^n\\), die abgeschlossen und offen sind. Also: wenn man zeigt, dass eine Teilmenge offen ist, dann ist sie nicht abgeschlossen, wenn sie nicht \\(\\Bbb R^n\\) oder \\(\\emptyset\\) ist. Zeige also es gibt einen Punkt in der Menge und es gibt einen Punkt, der nicht in der Menge ist. V.v. für offen/nicht abgeschlossen",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#siehe-auch",
+    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nEpsilon-Umgebung in Rn",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#definition-bbb-rn",
+    "href": "3 Der Raum Rn/Definitionen des Rn.html#definition-bbb-rn",
+    "title": "_TEMPLATE",
+    "section": "Definition \\(\\Bbb R^n\\)",
+    "text": "Definition \\(\\Bbb R^n\\)\n\n\\(\\mathbb{R}^n := \\{ (x_1, \\ldots, x_n) : x_1, \\ldots, x_n \\in \\mathbb{R} \\}\\)",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Definitionen des $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#definition-operationen-auf-bbb-rn",
+    "href": "3 Der Raum Rn/Definitionen des Rn.html#definition-operationen-auf-bbb-rn",
+    "title": "_TEMPLATE",
+    "section": "Definition Operationen auf \\(\\Bbb R^n\\)",
+    "text": "Definition Operationen auf \\(\\Bbb R^n\\)\n\n\nDie Zahl \\(x \\cdot y := x \\cdot y := x_1 y_1 + \\ldots + x_n y_n\\) wird Skalarprodukt von \\(x\\) und \\(y\\) genannt.\nDie Zahl \\(\\| x \\| := \\sqrt{x \\cdot x} = \\left( x_1^2 + \\ldots + x_n^2 \\right)^{\\frac{1}{2}}\\) wird als die Norm oder die Länge von \\(x\\) bezeichnet. Bemerke: \\(\\| x \\|^2 = x \\cdot x\\). Im Falle von \\(n = 1\\) gilt \\(\\| x \\| = |x|\\).\nDie Zahl \\(\\| x - y \\|\\) wird als Abstand zwischen \\(x\\) und \\(y\\) bezeichnet. Bemerke: \\(\\| x - y \\| = \\| y - x \\|\\).",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Definitionen des $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#eigenschaften-der-operationen",
+    "href": "3 Der Raum Rn/Definitionen des Rn.html#eigenschaften-der-operationen",
+    "title": "_TEMPLATE",
+    "section": "Eigenschaften der Operationen",
+    "text": "Eigenschaften der Operationen\n\n\n\\((x + y) \\cdot z = x \\cdot z + y \\cdot z\\), \\(x \\cdot y = y \\cdot x\\).\n\\((\\alpha x) \\cdot y = \\alpha (x \\cdot y) = x \\cdot (\\alpha y)\\).\n\\(\\| x \\| \\geq 0\\); \\(\\| x \\| = 0 \\Leftrightarrow x = 0 = (0, \\ldots, 0)\\).\n\\(\\| \\alpha x \\| = |\\alpha| \\| x \\|\\).\n\\(|x \\cdot y| \\leq \\| x \\| \\| y \\|\\) (Cauchy-Schwarz-Ungleichung (CSU)).\n\\(\\| x + y \\| \\leq \\| x \\| + \\| y \\|\\) (Dreiecksungleichung).\n\\(| \\| x \\| - \\| y \\| | \\leq \\| x - y \\|\\).\n\\(\\forall j \\in \\{1, \\ldots, n\\} : |x_j| \\leq \\| x \\| \\leq \\sum_{k=1}^n |x_k|\\).\ndie CSU gilt genau dann Gleichheit, wenn \\(x\\) und \\(y\\) linear abhängig sind.",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Definitionen des $\\Bbb R^n$"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#siehe-auch",
+    "href": "3 Der Raum Rn/Definitionen des Rn.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nEpsilon-Umgebung in Rn\nMatrix\nPartielle Ableitung",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Definitionen des $\\Bbb R^n$"
     ]
   },
   {
@@ -88,80 +582,94 @@
     ]
   },
   {
-    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#definition",
-    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#definition",
+    "objectID": "8 Intergration in Rn/Substitutionsregel.html#vorraussetzung",
+    "href": "8 Intergration in Rn/Substitutionsregel.html#vorraussetzung",
     "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(A \\subseteq \\Bbb R^n\\)\n\n\\(A\\) heißt beschränkt \\(\\iff\\) \\(\\exists c\\ge 0\\forall a\\in A: ||a||\\le c\\).\n\\(A\\) heißt offen \\(\\iff\\) \\(\\forall a\\in A \\exists \\delta=\\delta(a)&gt;0: U_\\delta(a)\\subseteq A\\).\n(So ganz einfach wenn wir echte Ungleichungen haben)\n\\(A\\) heißt abgeschlossen \\(\\iff\\) \\(A^C=\\Bbb R^n\\setminus A\\) ist offen.\n(Wenn man eine Ungleichung und zusätzlich noch eine Gleichheit haben)\n\\(A\\) heißt kompakt \\(\\iff\\) \\(A\\) ist beschränkt und abgeschlossen.",
+    "section": "Vorraussetzung",
+    "text": "Vorraussetzung\n\n\\(G\\subseteq\\Bbb R^n\\) offen, \\(g: G\\rightarrow\\Bbb R^n\\) stetig partiell differenzierbar; \\(B\\subseteq G\\) kompakt, \\(g\\) auf \\(B^\\circ\\) injektiv, \\(\\det g'(y)\\not=0\\forall y\\in B^\\circ\\).",
     "crumbs": [
-      "3 Der Raum Rn",
-      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
+      "8 Intergration in Rn",
+      "Substitutionsregel"
     ]
   },
   {
-    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#wichtiger-satz-für-bbb-rn.",
-    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#wichtiger-satz-für-bbb-rn.",
+    "objectID": "8 Intergration in Rn/Substitutionsregel.html#regel",
+    "href": "8 Intergration in Rn/Substitutionsregel.html#regel",
     "title": "_TEMPLATE",
-    "section": "Wichtiger Satz für \\(\\Bbb R^n\\).",
-    "text": "Wichtiger Satz für \\(\\Bbb R^n\\).\n\n\\(\\Bbb R^n\\) und \\(\\emptyset\\) sind die einzigen Teilmengen von \\(\\Bbb R^n\\), die abgeschlossen und offen sind. Also: wenn man zeigt, dass eine Teilmenge offen ist, dann ist sie nicht abgeschlossen, wenn sie nicht \\(\\Bbb R^n\\) oder \\(\\emptyset\\) ist. Zeige also es gibt einen Punkt in der Menge und es gibt einen Punkt, der nicht in der Menge ist. V.v. für offen/nicht abgeschlossen",
+    "section": "Regel",
+    "text": "Regel\n\nDann ist \\(g(B)\\) kompakt und messbar für \\(f\\in C(g(B))\\)\\[\\int_{g(B)}f(y)dy=\\int_Bf(g(x))|\\det g'(x)|dx\\]",
     "crumbs": [
-      "3 Der Raum Rn",
-      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
+      "8 Intergration in Rn",
+      "Substitutionsregel"
     ]
   },
   {
-    "objectID": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#siehe-auch",
-    "href": "3 Der Raum Rn/Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in Rn.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nEpsilon-Umgebung in Rn",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Beschränktheit, Offenheit, Abgeschlossenheit und Kompaktheit in $\\Bbb R^n$"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#definition",
-    "href": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\n\\(U_\\varepsilon(x_0) := \\{ x \\in \\mathbb{R}^n : \\|x - x_0\\| &lt; \\varepsilon \\}\\) heißt offene Kugel um \\(x_0\\) mit Radius \\(\\varepsilon\\), oder auch \\(\\varepsilon\\)-Umgebung von \\(x_0\\).\n\\(U_\\varepsilon(x_0) := \\{ x \\in \\mathbb{R}^n : \\|x - x_0\\| \\leq \\varepsilon \\}\\) heißt abgeschlossene Kugel um \\(x_0\\) mit Radius \\(\\varepsilon\\).",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Epsilon-Umgebung in Rn"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#siehe-auch",
-    "href": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#siehe-auch",
+    "objectID": "8 Intergration in Rn/Substitutionsregel.html#siehe-auch",
+    "href": "8 Intergration in Rn/Substitutionsregel.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "3 Der Raum Rn",
-      "Epsilon-Umgebung in Rn"
+      "8 Intergration in Rn",
+      "Substitutionsregel"
     ]
   },
   {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#definition",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#definition",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung “Höhere Mathematik 2”! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im \\(\\Bbb R^n\\) hier ist alles dabei, was für die Vorlesung relevant war.\nAber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.\nViel Erfolg beim Lernen und viel Spaß beim Durchklicken!\nInfos zur Klausur:\nKLAUSURINFOS\nLink zu HM1"
+  },
+  {
+    "objectID": "index.html#höhere-mathematik-2",
+    "href": "index.html#höhere-mathematik-2",
+    "title": "_TEMPLATE",
+    "section": "",
+    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung “Höhere Mathematik 2”! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im \\(\\Bbb R^n\\) hier ist alles dabei, was für die Vorlesung relevant war.\nAber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.\nViel Erfolg beim Lernen und viel Spaß beim Durchklicken!\nInfos zur Klausur:\nKLAUSURINFOS\nLink zu HM1"
+  },
+  {
+    "objectID": "2 Fourrier Reihen/Fourierreihe.html#definition",
+    "href": "2 Fourrier Reihen/Fourierreihe.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nEine DGL ist eine DGL mit getrennten Variablen, wenn:\n\\(y'(x)=f(x)g(y)\\).\n\\(\\frac{dy}{dx}=f(x)g(y)\\)\n\\(\\implies \\frac{dy}{g(y)}=f(x)dx\\)\n\\(\\implies \\int \\frac{dy}{g(y)}=\\int f(x)dx\\).",
+    "text": "Definition\n\nVoraussetzung:\n\\(f:\\Bbb R\\mapsto \\Bbb R\\), und \\(f\\) ist Riemann-Integrierbar und \\(2-\\pi\\)-Periodisch (man kann alles aber auch für jegliche Perioden definierten ofc lolz). Dann gilt:\n\\(f \\text{ \"}=\\text\" \\frac{a_0}{2}+\\sum^\\infty_{n=0}a_ncos(nx)+b_nsin(nx)\\)\n\\(\\implies\\) Fourierreihe\nEs gilt für die Fourierkoeffizienten:\n\\((a_n)_{n\\in\\Bbb N}=\\frac{1}{\\pi}\\int^\\pi_{-\\pi}f(x)cos(nx)dx\\)\n\\((b_n)_{n\\in\\Bbb N}=\\frac{1}{\\pi}\\int^\\pi_{-\\pi}f(x)sin(nx)dx\\)",
     "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Separierbare, getrennte Variablen"
+      "2 Fourrier Reihen",
+      "Fourierreihe"
     ]
   },
   {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#siehe-auch",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#siehe-auch",
+    "objectID": "2 Fourrier Reihen/Fourierreihe.html#wann-konvergiert-die-fourierreihe",
+    "href": "2 Fourrier Reihen/Fourierreihe.html#wann-konvergiert-die-fourierreihe",
+    "title": "_TEMPLATE",
+    "section": "Wann konvergiert die Fourierreihe?",
+    "text": "Wann konvergiert die Fourierreihe?\n\n\n\\(f\\) ist stückweise glatt \\(\\implies\\) Fourierreihe konvergiert (nicht unbedingt gegen \\(f\\) xd, an den Sprungstellen (falls es sie gibt) Konvergiert die Funktion (aber auch bei allen Punkten eigentlich) gegen den durchschnitt des links- und rechtsseitigen Grenzwertes)\n\\(f\\) ist stetig \\(\\implies\\) Fourierreihe konvergiert gegen \\(f\\)",
+    "crumbs": [
+      "2 Fourrier Reihen",
+      "Fourierreihe"
+    ]
+  },
+  {
+    "objectID": "2 Fourrier Reihen/Fourierreihe.html#weiterer-wichtiger-satz",
+    "href": "2 Fourrier Reihen/Fourierreihe.html#weiterer-wichtiger-satz",
+    "title": "_TEMPLATE",
+    "section": "Weiterer wichtiger Satz",
+    "text": "Weiterer wichtiger Satz\n\n\nIst \\(f\\) gerade, so beschreiben wir die Fourierreihe von \\(f\\) nur durch Cosinusterme\nIst \\(f\\) ungerade, so beschreiben wir die Fourierreihe von \\(f\\) nur durch Sinusterme",
+    "crumbs": [
+      "2 Fourrier Reihen",
+      "Fourierreihe"
+    ]
+  },
+  {
+    "objectID": "2 Fourrier Reihen/Fourierreihe.html#siehe-auch",
+    "href": "2 Fourrier Reihen/Fourierreihe.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nKomplexe Fourierreihen",
     "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Separierbare, getrennte Variablen"
+      "2 Fourrier Reihen",
+      "Fourierreihe"
     ]
   },
   {
@@ -187,116 +695,80 @@
     ]
   },
   {
-    "objectID": "TEMPLATES/-.html#definition",
-    "href": "TEMPLATES/-.html#definition",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#definition",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition"
-  },
-  {
-    "objectID": "TEMPLATES/-.html#siehe-auch",
-    "href": "TEMPLATES/-.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#definition",
-    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nIst \\(x\\in\\Bbb C\\), so ist der Betrag von \\(z\\) definiert als:\\[|z|:=\\sqrt{z\\cdot \\bar z}\\]Intuition:\nMan kann komplexe Zahlen als Punkt in einer Ebene darstellen, wobei eine Achse der Realteil - und die andere der Imaginärteil ist. Der abstand vom Ursprung zum Punkt in der Ebene ist dann laut dem Satz des Pythagoras \\(|z|=\\sqrt{\\mathfrak R(z)^2+\\mathfrak I (z)^2}\\left(=\\sqrt{z\\cdot\\bar w}\\right)\\).",
+    "text": "Definition\n\nEine DGL ist eine DGL mit getrennten Variablen, wenn:\n\\(y'(x)=f(x)g(y)\\).\n\\(\\frac{dy}{dx}=f(x)g(y)\\)\n\\(\\implies \\frac{dy}{g(y)}=f(x)dx\\)\n\\(\\implies \\int \\frac{dy}{g(y)}=\\int f(x)dx\\).",
     "crumbs": [
-      "1 Analysis in C",
-      "Betrag einer Komplexen Zahl"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Separierbare, getrennte Variablen"
     ]
   },
   {
-    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#eigenschaften",
-    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#eigenschaften",
-    "title": "_TEMPLATE",
-    "section": "Eigenschaften",
-    "text": "Eigenschaften\n\nDer Betrag einer komplexen Zahl…\n\nerfüllt \\(|z|=|\\bar z|\\).\nist multiplikativ, d.h.\n\\(|z\\cdot w|= |z|\\cdot|w|\\)\nerfüllt die \\(\\bf\\triangle\\)-Ungleichung :oooooooooooooooo\n\\(|z+w|\\le|z|+|w|\\).",
-    "crumbs": [
-      "1 Analysis in C",
-      "Betrag einer Komplexen Zahl"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Betrag einer Komplexen Zahl.html#siehe-auch",
-    "href": "1 Analysis in C/Betrag einer Komplexen Zahl.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nDie komplexe Exponentialfunktion\nKomplexe Reihen\nKonvergenz Komplexer Folgen",
-    "crumbs": [
-      "1 Analysis in C",
-      "Betrag einer Komplexen Zahl"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Geisteskranke Eselsbrücke.html#definition",
-    "href": "1 Analysis in C/Geisteskranke Eselsbrücke.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n       | \\(0\\) | \\(30\\) | \\(45\\) | \\(60\\) | \\(90\\) |\n—— | ——————– | ——————– | ——————– | ——————– | ——————– |\n       | \\(0\\) | \\(\\frac{\\pi}{6}\\) | \\(\\frac{\\pi}{4}\\) | \\(\\frac{\\pi}{3}\\) | \\(\\frac{\\pi}{2}\\) |\n\\(\\sin\\) | \\(\\frac{\\sqrt{0}}{2}\\) | \\(\\frac{\\sqrt{1}}{2}\\) | \\(\\frac{\\sqrt{2}}{2}\\) | \\(\\frac{\\sqrt{3}}{2}\\) | \\(\\frac{\\sqrt{4}}{2}\\) |\n\\(\\cos\\) | \\(\\frac{\\sqrt{4}}{2}\\) | \\(\\frac{\\sqrt{3}}{2}\\) | \\(\\frac{\\sqrt{2}}{2}\\) | \\(\\frac{\\sqrt{1}}{2}\\) | \\(\\frac{\\sqrt{0}}{2}\\) |",
-    "crumbs": [
-      "1 Analysis in C",
-      "Geisteskranke Eselsbrücke"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Geisteskranke Eselsbrücke.html#siehe-auch",
-    "href": "1 Analysis in C/Geisteskranke Eselsbrücke.html#siehe-auch",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#siehe-auch",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Separierbare, getrennte Variablen.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "1 Analysis in C",
-      "Geisteskranke Eselsbrücke"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Separierbare, getrennte Variablen"
     ]
   },
   {
-    "objectID": "1 Analysis in C/Komplexe Potenzreihen.html#definition",
-    "href": "1 Analysis in C/Komplexe Potenzreihen.html#definition",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#definition",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nFür eine Potenzreihe \\(\\sum^\\infty_{n=0}a_n(z-z_0)^n\\) sei \\(\\rho=limsup^\\infty_{n\\rightarrow\\infty}\\sqrt {(|a_n|)}_n\\). Der Konvergenzradius ist definiert durch\n\\[r=\\begin{cases}0, & \\text{falls }\\rho=\\infty \\\\ \\infty, & \\text{falls }\\rho=0 \\\\ \\frac{1}{\\rho}, &\\text{falls } \\rho\\in(0,\\infty)\\end{cases}\\]\n\nIst \\(r=0\\), so konvergiert die Potenzreihe nur in \\(z=z_0\\)\nIst \\(r=\\infty\\), so konvergiert die Potenzreihe in jedem \\(z\\in\\Bbb C\\)\nIst \\(0&lt;r&lt;\\infty\\), so konvergiert die Potenzreihe absolut für \\(|z-z_0|&lt;r\\) und divergiert für alle Punkte \\(|z-z_0|&gt;r\\) und für \\(|z-z_0|=r\\) ist keine allgemeingültige Aussage möglich.",
+    "text": "Definition\n\nEs sei \\(I\\subseteq\\Bbb R\\) ein INtervall und \\(\\alpha, s: I\\rightarrow\\Bbb R\\) stetig. Die Differentialgleichung\\[y'(x)=\\alpha(x)y(x)+s(x)\\]heißt eine lineare Diffentialgleichung und \\(s\\) heißt Störfunktion und wenn \\(s(x)\\) die Nullfunktion ist ist die Gleichung homogen und wenn \\(s(x)\\) nicht die Nullfunktion ist ist heißt die DGL inhomogen.",
     "crumbs": [
-      "1 Analysis in C",
-      "Komplexe Potenzreihen"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Lineare Differentialgleichungen"
     ]
   },
   {
-    "objectID": "1 Analysis in C/Komplexe Potenzreihen.html#siehe-auch",
-    "href": "1 Analysis in C/Komplexe Potenzreihen.html#siehe-auch",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#lösungsmethoden",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#lösungsmethoden",
+    "title": "_TEMPLATE",
+    "section": "Lösungsmethoden",
+    "text": "Lösungsmethoden\n\n\\(\\beta\\) sei im folgenden eine Stammfunktion von \\(\\alpha\\) auf \\(I\\)\n\n\\(y\\) ist eine Lösung einer homogenen DGL auf \\(I\\), wenn \\(\\iff\\exists c\\in\\Bbb R:y(x)=ce^{\\beta(x)}\\).\nSei \\(𝑦𝑝\\) eine spezielle Lösung von einer inhomogenen DGL auf 𝐼. Dann gilt: 𝑦 ist eine Lösung von der DGL auf \\(𝐼 \\iff ∃𝑐 ∈ R : 𝑦(𝑥) = 𝑦𝑝(𝑥) + 𝑐𝑒^{𝛽(𝑥)} .\\)\nVariation der Konstanten: Der Ansatz \\[y_p(x)=c(x)e^{\\beta(x)}\\]mit einer noch unbekannten Funktion \\(c\\) führt auf eine spezielle Lösung einer inhomogenen DGL auf \\(I\\).",
+    "crumbs": [
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Lineare Differentialgleichungen"
+    ]
+  },
+  {
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#siehe-auch",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "1 Analysis in C",
-      "Komplexe Potenzreihen"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Lineare Differentialgleichungen"
     ]
   },
   {
-    "objectID": "1 Analysis in C/Die komplexe Exponentialfunktion.html#definition",
-    "href": "1 Analysis in C/Die komplexe Exponentialfunktion.html#definition",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#definition",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nDie komplexe Exponentialfunktion hat die folgenden Eigenschaften:\n\n\\(\\forall z,w\\in\\Bbb C: e^{z+w}=e^z+e^w\\) sowie \\(\\forall z,w\\in\\Bbb C: e^{nz}=e^{z^n}\\)\n\\(\\bar{e^z}=e^{\\bar{z}}\\).\n\\(e^{iz}=\\cos(z)+i\\sin(z)\\).\n\\(\\cos(z)=1/2(e^{iz}+e^{-it})\\), \\(\\sin(z)=1/2i(e^{iz}+e^{-it})\\),\n\\(\\forall x\\in\\Bbb R: \\left|e^{ix}\\right|=1\\).\nEs gelten auch die Additionstheoreme:\n\\(\\sin(z+w)=\\sin(z)\\cos(w)+\\sin(w)\\cos(z)\\)\n\\(\\cos(z+w)=\\cos(z)\\cos(w)-\\sin(w)\\sin(z)\\)",
+    "text": "Definition\n\n\\[y'(x)=f(x)\\cdot g(y(x))\\]\nSo Gleichungen kann man lösen rofl\nSeien \\(I_1,I_2\\subseteq\\) Intervalle und \\(f\\in C(I_1,\\Bbb R)\\), \\(g\\in C(I_2,\\Bbb R)\\). Die DGL nennt man dann eine Differentialgleichungen mit getrennten Veränderlichen. Gilt \\(g(y)\\not=0\\) \\(\\forall y\\in I_2\\), so erhält man eine Lsg. von (1). indem man \\[\\int\\frac{1}{g(y)}dy=\\int f(x)dx+c\\]nach y auflöst.\nOkaydokay, was ist mit dem Anfangswertproblem?\nNaja, das kriegt man hin, indem man das \\(c\\) auf die Gegebenheit des Anfangswertproblem anpasst.",
     "crumbs": [
-      "1 Analysis in C",
-      "Die komplexe Exponentialfunktion"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Differentialgleichungen mit getrennten Veränderlichen"
     ]
   },
   {
-    "objectID": "1 Analysis in C/Die komplexe Exponentialfunktion.html#siehe-auch",
-    "href": "1 Analysis in C/Die komplexe Exponentialfunktion.html#siehe-auch",
+    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#siehe-auch",
+    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nPolarkoordinaten",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "1 Analysis in C",
-      "Die komplexe Exponentialfunktion"
+      "9 Spezielle Differentialgleichungen 1. Ordnung",
+      "Differentialgleichungen mit getrennten Veränderlichen"
     ]
   },
   {
@@ -377,6 +849,138 @@
     ]
   },
   {
+    "objectID": "8 Intergration in Rn/Messbare Mengen.html#definition",
+    "href": "8 Intergration in Rn/Messbare Mengen.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nSei \\(B \\subseteq \\Bbb R ^n\\) beschränkt.\n\\(c_B(x):=\\begin{cases} 1 & x\\in B \\\\ 0 & x\\not\\in B \\end{cases}\\) heißt charakteristische Funktion (von \\(B\\)).\n\\(B\\) heißt messbar \\(\\iff\\) \\(c_B(x)\\in R(I)\\) mit \\(B\\subseteq I\\).\nIn dem Fall heißt \\(|B|:=\\int_Ix_B(x)dx\\) der Inhalt der Menge",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Messbare Mengen"
+    ]
+  },
+  {
+    "objectID": "8 Intergration in Rn/Messbare Mengen.html#siehe-auch",
+    "href": "8 Intergration in Rn/Messbare Mengen.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Messbare Mengen"
+    ]
+  },
+  {
+    "objectID": "8 Intergration in Rn/Satz von Fubini.html#folgerung-aus-dem-satz",
+    "href": "8 Intergration in Rn/Satz von Fubini.html#folgerung-aus-dem-satz",
+    "title": "_TEMPLATE",
+    "section": "Folgerung aus dem Satz",
+    "text": "Folgerung aus dem Satz\n\n\\(f\\in R(I)\\), \\(I\\subseteq \\Bbb R^n\\) kompaktes Rechteck\n\\[\\implies\\int_If(x_1,x_2,\\dots,x_n)d(x_1,x_2,\\dots,x_n)=\\int_{a_1}^{b_1}\\int_{a_2}^{b_2}\\dots\\int_{a_n}^{b_n}f(x_1,x_2,\\dots,x_n)dx_ndx_{n-1}\\dots dx_1\\]Die Reihenfolge ist vertauschbar (mit den Intervallen aber auch klarer weise!)\n\\(f(x,y)=g(x)h(y)\\)\n\\(\\implies \\int_I f(x,y)d(x,y)=\\int_{x_1}^{x_2}g(x)dx\\cdot\\int_{y_1}^{y_2}h(y)dy\\). (WEIL: wenn ich nach x ableite ist der andere Faktor konstant rofllll!!!!! schwichtigggg)\nAlso bei solchen aufgaben: 1. sind die zu integrierenden funktionen irgendwie produkte oder in welcher Reihenfolge ist es am schlausten zu integrieren?",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Satz von Fubini"
+    ]
+  },
+  {
+    "objectID": "8 Intergration in Rn/Satz von Fubini.html#siehe-auch",
+    "href": "8 Intergration in Rn/Satz von Fubini.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Satz von Fubini"
+    ]
+  },
+  {
+    "objectID": "8 Intergration in Rn/Integration in Rn.html#definition",
+    "href": "8 Intergration in Rn/Integration in Rn.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\nEs sei \\(B\\subseteq\\Bbb R^n\\) messbar, \\(f:I\\rightarrow\\Bbb R\\) (mit \\(B\\subseteq I\\)), dann def:\n\\(f_B(x)=\\begin{cases}f(x) & x\\in B \\\\ 0 & x\\not\\in B\\end{cases}=c_B(x)\\cdot f(x)\\)\n\\(f\\) sei dann über \\(B\\) integrierbar, wenn \\(f_B(x)\\in R(I)\\).\n\n\\(f,g\\in R(I)\\), \\(f\\le g\\),\n\\(M_{f,g}:=\\{(x,y)\\in\\Bbb R^{n+1},x\\in B, f(x)\\le y \\le g(x)\\}\\).\n\\(B=\\{(x,y)\\in\\Bbb R^2|f(x)\\le y \\le g(x)\\}\\).\\(f,g:[a,b]\\rightarrow\\Bbb R\\) stetig, \\(f\\le g\\).\n\nHier ist \\(B\\) dann der Normalbereich bezüglich der \\(x\\)-Achse, weil sie so beschränkt wird von \\(f\\) und \\(g\\).\nUnd dann ist \\(B\\) messbar. So macht man messbarkeit.",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Integration in Rn"
+    ]
+  },
+  {
+    "objectID": "8 Intergration in Rn/Integration in Rn.html#siehe-auch",
+    "href": "8 Intergration in Rn/Integration in Rn.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Intergration in Rn",
+      "Integration in Rn"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Matrix.html#definition",
+    "href": "3 Der Raum Rn/Matrix.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nEs seien \\(l, m, n \\in \\mathbb{N}\\) und \\(A = \\begin{pmatrix} a_{11} & \\ldots & a_{1n} \\\\ \\vdots & \\ddots & \\vdots \\\\ a_{m1} & \\ldots & a_{mn} \\end{pmatrix}\\) eine reelle \\(m \\times n\\)-Matrix.",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Matrix"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Matrix.html#norm-einer-matrix",
+    "href": "3 Der Raum Rn/Matrix.html#norm-einer-matrix",
+    "title": "_TEMPLATE",
+    "section": "Norm einer Matrix",
+    "text": "Norm einer Matrix\n\nEine Matrix ist ja auch ein Vektor nhhh weil die einzelnen Komponenten einer Matrix linear sind mit + und * . Also ist die Norm einer Matrix genau wie man es sich vorstellt\n\\(||A||=\\left(\\sum^m_{j=1}\\sum^n_{k=1}a^2_{jk}\\right)^{\\frac{1}{2}}\\)\nWir gehen alle Einträge durch, quadrieren sie, summieren sie, und ziehen dann die Wurzel.\nEs gilt auch eine CSU bei Matrizen:\n\\(||AB||\\le||A|| \\ ||B||\\).",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Matrix"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Matrix.html#matrix-vektorprodukt",
+    "href": "3 Der Raum Rn/Matrix.html#matrix-vektorprodukt",
+    "title": "_TEMPLATE",
+    "section": "Matrix-Vektorprodukt",
+    "text": "Matrix-Vektorprodukt\n\nWir multiplizieren eine Matrix mit einem Vektor wie wir es aus der LA kennen.\nEs folgt aus der CSU:\n\\(||Ax||\\le||A|| \\ ||x||\\)\nZudem gilt logischerweise:\n\\(||A||=||A^T||\\).",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Matrix"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Matrix.html#siehe-auch",
+    "href": "3 Der Raum Rn/Matrix.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Matrix"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#definition",
+    "href": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n\n\\(U_\\varepsilon(x_0) := \\{ x \\in \\mathbb{R}^n : \\|x - x_0\\| &lt; \\varepsilon \\}\\) heißt offene Kugel um \\(x_0\\) mit Radius \\(\\varepsilon\\), oder auch \\(\\varepsilon\\)-Umgebung von \\(x_0\\).\n\\(U_\\varepsilon(x_0) := \\{ x \\in \\mathbb{R}^n : \\|x - x_0\\| \\leq \\varepsilon \\}\\) heißt abgeschlossene Kugel um \\(x_0\\) mit Radius \\(\\varepsilon\\).",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Epsilon-Umgebung in Rn"
+    ]
+  },
+  {
+    "objectID": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#siehe-auch",
+    "href": "3 Der Raum Rn/Epsilon-Umgebung in Rn.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Der Raum Rn",
+      "Epsilon-Umgebung in Rn"
+    ]
+  },
+  {
     "objectID": "12 Fouriertransformation/Faltung.html#definitio",
     "href": "12 Fouriertransformation/Faltung.html#definitio",
     "title": "_TEMPLATE",
@@ -399,25 +1003,144 @@
     ]
   },
   {
-    "objectID": "12 Fouriertransformation/Fouriertransformation.html#definition",
-    "href": "12 Fouriertransformation/Fouriertransformation.html#definition",
+    "objectID": "1 Analysis in C/Polarkoordinaten.html#definition",
+    "href": "1 Analysis in C/Polarkoordinaten.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\n\\(f: \\Bbb R \\rightarrow\\Bbb C\\) stückweise stetig, absolut integrierbar.\nDefiniere: \\(\\hat f: \\Bbb R\\rightarrow\\Bbb c; S\\mapsto \\frac{1}{2\\pi}\\int^\\infty_\\infty f(t)e^{-ist}dt\\).\n$\\rightarrow$ $\\hat f$ stetig, beschränkt, $\\lim_{s\\rightarrow\\infty} \\hat f(s)=0$\n\\(\\int g(t)dt=\\int Re g(x)dt + i \\int Imgg(t)dt\\)\n\\(\\int e^{ist}dt=\\frac{e^{ist}}{is}\\).",
+    "text": "Definition\n\nNormalerweise beschreibt man koordinaten durch einen \\(x\\) und einen \\(y\\)-Wert. Man kann einen Pùnkt aber durch einen Winkel und eine Länge beschreiben. Mit der Eulerschen Formel kann man das dann in komplexen Zahlen cool durchführen xdd.\nDen Winkel eines Punktes \\(z\\) in Polarkoordinaten nennt man Argument von \\(z\\) und schreibt\n\\(\\varphi = arg(z)\\).",
     "crumbs": [
-      "12 Fouriertransformation",
-      "Fouriertransformation"
+      "1 Analysis in C",
+      "Polarkoordinaten"
     ]
   },
   {
-    "objectID": "12 Fouriertransformation/Fouriertransformation.html#siehe-auch",
-    "href": "12 Fouriertransformation/Fouriertransformation.html#siehe-auch",
+    "objectID": "1 Analysis in C/Polarkoordinaten.html#siehe-auch",
+    "href": "1 Analysis in C/Polarkoordinaten.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nMultiplikation komplexer Zahlen easy",
+    "crumbs": [
+      "1 Analysis in C",
+      "Polarkoordinaten"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Komplexe Reihen.html#definition",
+    "href": "1 Analysis in C/Komplexe Reihen.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nFür eine Folge \\((a_n)\\subseteq\\Bbb C\\) sei \\(s_n=a_1+a_2+\\dots+a_n, n\\in\\Bbb N\\).\nDie Folge \\((s_n)\\) heißt unendliche Reihe und wird mit \\(\\sum^\\infty_{n=1}a_n\\) bezeichnet.\n\n\\(\\sum^\\infty_{n=1}a_n\\) heißt konvergent \\(\\iff\\) \\((s_n)\\) konvergiert.\ndivergent vv\n\\(\\sum^\\infty_{n=1}a_n\\) heißt dementsprechend Reihenwert (Siehe HM1)",
+    "crumbs": [
+      "1 Analysis in C",
+      "Komplexe Reihen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Komplexe Reihen.html#bemerkung",
+    "href": "1 Analysis in C/Komplexe Reihen.html#bemerkung",
+    "title": "_TEMPLATE",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nDefinitionen und Satze aus HM1 Kapitel 3&4 geslten wörtlich auch in \\(\\Bbb C\\). Ausnahme: Definitionen und Sätze in denen die Anordnung von \\(\\Bbb R\\) eine Rolle spielt (Monotonie, Leibnitz)",
+    "crumbs": [
+      "1 Analysis in C",
+      "Komplexe Reihen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Komplexe Reihen.html#siehe-auch",
+    "href": "1 Analysis in C/Komplexe Reihen.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKomplexe Potenzreihen\nKomplexe Fourierreihen",
+    "crumbs": [
+      "1 Analysis in C",
+      "Komplexe Reihen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#definition",
+    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nEine Folge \\((z_n)\\subseteq\\Bbb C\\) heißt konvergent, falls ein \\(z\\in\\Bbb C\\) existiert mit \\(|z_n-z|\\rightarrow 0\\).\nIn diesem Fall heißt \\(z\\) Grenzwert von \\((z_n)\\).",
+    "crumbs": [
+      "1 Analysis in C",
+      "Konvergenz Komplexer Folgen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#bemerkung",
+    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#bemerkung",
+    "title": "_TEMPLATE",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nAus Definition des Betrags bzw. Konvergenz folgt für \\((z_n)\\subseteq\\Bbb C\\) und \\(z\\in\\Bbb C\\):\\[z_n\\rightarrow z\\iff \\mathfrak R(z_n)\\rightarrow\\mathfrak R(z) \\land\\mathfrak I(z_n)\\rightarrow\\mathfrak I(z)\\]",
+    "crumbs": [
+      "1 Analysis in C",
+      "Konvergenz Komplexer Folgen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#random-kriterien",
+    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#random-kriterien",
+    "title": "_TEMPLATE",
+    "section": "Random Kriterien",
+    "text": "Random Kriterien\n\n\nFür \\((z_n),(w_n)\\subseteq\\Bbb C\\) mit \\(z_n\\rightarrow z\\) und \\(w_n\\rightarrow w\\). Für \\(n\\rightarrow\\infty\\) gilt;\n\n\\(z_nw_n\\rightarrow zw\\)\nIst \\(z\\not=0\\). so ex. ein \\(n_0\\in\\Bbb N\\) mit \\(z_n\\not=0\\) ffa \\(n\\) und \\(\\frac{1}{z_n}\\rightarrow\\frac{1}{z}\\).",
+    "crumbs": [
+      "1 Analysis in C",
+      "Konvergenz Komplexer Folgen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#siehe-auch",
+    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKomplexe Reihen",
+    "crumbs": [
+      "1 Analysis in C",
+      "Konvergenz Komplexer Folgen"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Geisteskranke Eselsbrücke.html#definition",
+    "href": "1 Analysis in C/Geisteskranke Eselsbrücke.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\n       | \\(0\\) | \\(30\\) | \\(45\\) | \\(60\\) | \\(90\\) |\n—— | ——————– | ——————– | ——————– | ——————– | ——————– |\n       | \\(0\\) | \\(\\frac{\\pi}{6}\\) | \\(\\frac{\\pi}{4}\\) | \\(\\frac{\\pi}{3}\\) | \\(\\frac{\\pi}{2}\\) |\n\\(\\sin\\) | \\(\\frac{\\sqrt{0}}{2}\\) | \\(\\frac{\\sqrt{1}}{2}\\) | \\(\\frac{\\sqrt{2}}{2}\\) | \\(\\frac{\\sqrt{3}}{2}\\) | \\(\\frac{\\sqrt{4}}{2}\\) |\n\\(\\cos\\) | \\(\\frac{\\sqrt{4}}{2}\\) | \\(\\frac{\\sqrt{3}}{2}\\) | \\(\\frac{\\sqrt{2}}{2}\\) | \\(\\frac{\\sqrt{1}}{2}\\) | \\(\\frac{\\sqrt{0}}{2}\\) |",
+    "crumbs": [
+      "1 Analysis in C",
+      "Geisteskranke Eselsbrücke"
+    ]
+  },
+  {
+    "objectID": "1 Analysis in C/Geisteskranke Eselsbrücke.html#siehe-auch",
+    "href": "1 Analysis in C/Geisteskranke Eselsbrücke.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "12 Fouriertransformation",
-      "Fouriertransformation"
+      "1 Analysis in C",
+      "Geisteskranke Eselsbrücke"
+    ]
+  },
+  {
+    "objectID": "KLAUSURINFOS.html#definition",
+    "href": "KLAUSURINFOS.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition\n\nDatum: 19.20\n\nNur Inhalte des Skripts, die auch in der Vorlesung behandelt wurden + Inhalte auf den Übungsblättern\nGenauer: Kein Bernoulli - bzw Ricatti DGL\nKein Kapitel 22\nNichts hinter Satz 23.4\n\nLernen vorgehen z.b.: Skript vorlesen, nochmal die Übungsaufgaben Rechnen, überlegen wo wir viel Zeit aufgewendet haben, es gibt in Altklausuren Aufgaben, die wir nicht gemacht haben die wir nicht lösen können.\nEs kommt nur eine kleine DGL Aufgabe\nEs ist kein cheat-sheet erlaubt, es geht auch darum, dass wir Sachen auch auswendig können und, dass die Klausur nicht so angepasst schwierig ist.\nDie Klausur wird ähnlich wie bei Herzhog.\nTipps:\nVORRAUSSETZUNGEN NICHT VERGESSEN\nSatz über implizit definierte Funktionen != Umkehrsatz\n2.039 für fragen Mint Kolleg Dozent",
+    "crumbs": [
+      "KLAUSURINFOS"
+    ]
+  },
+  {
+    "objectID": "KLAUSURINFOS.html#siehe-auch",
+    "href": "KLAUSURINFOS.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "KLAUSURINFOS"
     ]
   },
   {
@@ -438,317 +1161,6 @@
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "10 Lineare Systeme mit konstanten Koeffizienten"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Satz von Schwarz.html#definition",
-    "href": "6 Differentialrechnung in Rn/Satz von Schwarz.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\(f\\in C^k(D,\\Bbb R)\\implies\\)Die Reihenfolge nach der abgeleitet wird spielt keine Rolle für das Ergebnis. z.B. gilt für\n\\(f\\in C^2(\\Bbb R^2,\\Bbb R):f_{xy}=f_{yx}\\).",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Satz von Schwarz"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Satz von Schwarz.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Satz von Schwarz.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Satz von Schwarz"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#definition",
-    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\(f\\) heißt in \\(x_0\\) partiell differenzierbar nach \\(x_i\\) \\(\\iff\\) es existiert der Grenzwert \\(\\partial_{x_i}f(x_0)=\\frac{\\partial f}{\\partial x_i}(x)=\\lim_{t\\rightarrow 0}\\frac{f(x_0+te_i)-f(x_0)}{t}\\)\nMan hält also alle variablen fest und leitet nach \\(x_i\\) ab.",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Partielle Ableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#schreibweisen",
-    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#schreibweisen",
-    "title": "_TEMPLATE",
-    "section": "Schreibweisen",
-    "text": "Schreibweisen",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Partielle Ableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Partielle Ableitung.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Partielle Ableitung.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nRichtungsableitung\n(vollständige) Ableitung\nDer Mittelwertsatz\nGradient\nKettenregel\nHesse Matrix\nSatz von Schwarz",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Partielle Ableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Gradient.html#definition",
-    "href": "6 Differentialrechnung in Rn/Gradient.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\(\\nabla f(x,y)=\\left( f_x(x,y) \\ \\ f_y(x,y) \\right)^T\\)\nDiese Definition gilt dann für egal welche DImension ein Vektor hat",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Gradient"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Gradient.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Gradient.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Gradient"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtung",
-    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtung",
-    "title": "_TEMPLATE",
-    "section": "Richtung",
-    "text": "Richtung\n\nWir nennen einen Vektor \\(a\\in\\Bbb R^n\\) mit \\(||a||=1\\) Richtung bzw Richtungsvektor.",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Richtungsableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtungsableitung-1",
-    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtungsableitung-1",
-    "title": "_TEMPLATE",
-    "section": "Richtungsableitung",
-    "text": "Richtungsableitung\n\nSeien \\(x_0\\in D\\) und \\(a\\in\\Bbb R^n\\) eine Richtung. Die Funktion \\(f\\) heißt in \\(x_0\\) in Richtung \\(a\\) differenzierbar, falls der Grenzwert \\[\\frac{\\partial f}{\\partial a}= \\lim_{t\\rightarrow 0}\\frac{f(x_0+ta)-f(x_0)}{t}\\] existiert.\nIn diesem Fall heißt \\(\\frac{\\partial f}{\\partial x}(x_0)\\) Richtungsableitung von f in \\(x_0\\) in Richtung \\(a\\).",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Richtungsableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Richtungsableitung.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Richtungsableitung"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Satz von Taylor.html#definition",
-    "href": "6 Differentialrechnung in Rn/Satz von Taylor.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nSind \\(𝑓 ∈ 𝐶^2  (𝐷, \\Bbb R), 𝑥0 ∈ 𝐷, ℎ ∈\\Bbb R^ 𝑛\\) und \\(𝑆[𝑥0, 𝑥0 + ℎ] ⊆ 𝐷\\), so existiert ein \\(𝜉 ∈ 𝑆[𝑥0, 𝑥0 + ℎ]\\) mit \\[𝑓(𝑥0 + ℎ) = 𝑓(𝑥0) + ∇𝑓(𝑥0) · ℎ + \\frac{1}{2} (𝐻_𝑓 (𝜉)ℎ) · ℎ\\]. Als letztes benötigen wir ein mehrdimensionales Analogon dafür, wann die „2. Ableitung“ einer Funktion „positiv“ bzw. „negativ“ ist",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Satz von Taylor"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Satz von Taylor.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Satz von Taylor.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Satz von Taylor"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#vorraussetzung",
-    "href": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#vorraussetzung",
-    "title": "_TEMPLATE",
-    "section": "Vorraussetzung",
-    "text": "Vorraussetzung\n\nEs sei \\((𝑥_0, 𝑦_0) ∈ 𝐷\\), \\(𝑓(𝑥_0, 𝑦_0) = 0\\) und \\(\\det \\frac{∂𝑓}{∂𝑦} (𝑥_0, 𝑦_0) \\not=0\\).\nDann gilt:\n\n\\(𝑈_𝛿(𝑥_0) × 𝑈_𝜂(𝑦_0) ⊆ 𝐷,\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) ∃_1𝑦 =: 𝑔(𝑥) ∈ 𝑈_𝜂(𝑦_0) : 𝑓(𝑥, 𝑦) = 0,\\)\n\\(𝑔 ∈ 𝐶 ^1 (𝑈_𝛿(𝑥_0), \\Bbb R^ 𝑝 ),\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) : \\det\\frac{∂𝑓}{∂𝑦} (𝑥, 𝑔(𝑥)) \\not =0\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) : 𝑔 ' (𝑥) = − (︃ \\frac{∂𝑓}{∂𝑦} (𝑥, 𝑔(𝑥)))︃^{−1} · (︃ \\frac{∂𝑓}{∂𝑥}(𝑥, 𝑔(𝑥)))\\)",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Satz über implizit Definierte Funktionen"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#siehe-auch",
-    "href": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Satz über implizit Definierte Funktionen"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#definition",
-    "href": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(𝐷 ⊆ \\Bbb R^ 𝑛\\) offen, \\(𝑓 ∈ 𝐶^ 1 (𝐷, \\Bbb R^ 𝑛 )\\) und \\(𝑥_0 ∈ 𝐷\\). Ist \\(\\det 𝑓 ' (𝑥_0) \\not=0,\\) so existiert ein \\(𝛿 &gt; 0\\) mit:\n\n\\(𝑈_𝛿(𝑥_0) ⊆ 𝐷\\) und \\(𝑓(𝑈_𝛿(𝑥_0))\\) ist offen,\n\\(𝑓\\) ist auf \\(𝑈_𝛿(𝑥_0)\\) injektiv,\n\\(𝑓^{−1} : 𝑓(𝑈_𝛿(𝑥_0)) → 𝑈_𝛿(𝑥_0)\\) ist in \\(𝐶^1 (𝑓(𝑈_𝛿(𝑥_0)),\\Bbb  R^ 𝑛 )\\),\n\\(\\det 𝑓 ' (𝑥) \\not=0 (𝑥 ∈ 𝑈_𝛿(𝑥_0)\\)) und\n\\((︁ 𝑓^{−1} )︁' (𝑦)\\) = \\((︁ 𝑓 ' (︁ 𝑓 ^{−1} (𝑦) )︁)︁^{−1} (𝑦 ∈ 𝑓(𝑈_𝛿(𝑥_0))).\\)",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Der Umkehrsatz"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#siehe-auch",
-    "href": "7 Differentialrechnung im Rn/Der Umkehrsatz.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Der Umkehrsatz"
-    ]
-  },
-  {
-    "objectID": "HM2 Bonustutorium.html#themen",
-    "href": "HM2 Bonustutorium.html#themen",
-    "title": "_TEMPLATE",
-    "section": "Themen",
-    "text": "Themen\n\n\nFouriertransformationen\n\nPolar & Kugelkoordinaten\nLineare DGL - Systeme\nGleichmäßige Stetigkeit\npunktweise / gleichmäßige Konvergenz\nimplizite Funktionen\nGrenzwerte im Mehrdimensionalen"
-  },
-  {
-    "objectID": "HM2 Bonustutorium.html#siehe-auch",
-    "href": "HM2 Bonustutorium.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#definition",
-    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\(f\\) heißt in \\(x_0\\in D\\) differenzierbar \\(\\iff\\) es existiert eine \\(m\\times n\\)-Matrix \\(A\\) mit\n\\(\\lim_{h\\rightarrow 0}\\frac{f(x_0+h)-f(x_0)-Ah}{\\Vert h \\Vert}\\)\n\\(A\\) ist wenn sie existiert die Jaxobimatrix.",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Differenzierbarkeit"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#satz-dazu",
-    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#satz-dazu",
-    "title": "_TEMPLATE",
-    "section": "Satz dazu",
-    "text": "Satz dazu\n\n\n\\(f\\) ist in \\(x_0\\) differenzierbar \\(\\iff\\) Alle \\(f_j\\) sind in \\(x_0\\) differenzierbar. In diesem fall gilt\n\n\\(f\\) ist in \\(x_0\\) stetig\n\\(f\\) ist in \\(x_0\\) partiell differenzierbar\nDie Matrix \\(A\\) ist eindeutig die Jacobimatrix.\n\nIst \\(f\\) in \\(x_0\\) differenzierbar, so heißt \\(f'(x_0):=J_f(x_0)\\) die Ableitung von \\(f\\) in \\(x_0\\).",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Differenzierbarkeit"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#anderer-satz-mit-partiellen-ableitungen-wie-kapitel-6",
-    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#anderer-satz-mit-partiellen-ableitungen-wie-kapitel-6",
-    "title": "_TEMPLATE",
-    "section": "Anderer Satz mit partiellen Ableitungen wie Kapitel 6",
-    "text": "Anderer Satz mit partiellen Ableitungen wie Kapitel 6\n\n$$ D x_0 f x_0 \n]$$\n$$\n f C^1(D, ^m), f D \n$$",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Differenzierbarkeit"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#siehe-auch",
-    "href": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Differenzierbarkeit"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Jacobimatrix.html#definition",
-    "href": "7 Differentialrechnung im Rn/Jacobimatrix.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\[\\frac{\\partial x}{\\partial x_0} :=\\frac{\\partial (f_1, \\ldots, f_m)}{\\partial(x_1,\\ldots, x_n)} (x_0) :=J_f(x_0):=\\begin{pmatrix}\\frac{\\partial f_1}{\\partial x_1} (x_0) & \\ldots & \\frac{\\partial f_1}{\\partial x_n} (x_0) \\\\\\vdots & \\ddots & \\vdots \\\\\\frac{\\partial f_m}{\\partial x_1} (x_0) & \\ldots & \\frac{\\partial f_m}{\\partial x_n} (x_0)\\end{pmatrix}\\]\nDiese Matrix nennt man die Jakobimatrix und ja das sind alle Ableitungen drinne :D\nIn der Jakobimatrix",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Jacobimatrix"
-    ]
-  },
-  {
-    "objectID": "7 Differentialrechnung im Rn/Jacobimatrix.html#siehe-auch",
-    "href": "7 Differentialrechnung im Rn/Jacobimatrix.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Differentialrechnung im Rn",
-      "Jacobimatrix"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Kettenregel.html#definition",
-    "href": "6 Differentialrechnung in Rn/Kettenregel.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nSind \\(I\\subseteq\\Bbb R\\) ein Intervall, \\(g=(g_1,\\dots,g_n:I\\rightarrow \\Bbb R^n\\) differenzierbar in \\(t_0\\in I, g(I)\\subseteq D\\) und \\(f\\) in \\(x_0=g(t_0)\\) differenzierbar. So ist \\(f\\circ g:I\\rightarrow \\Bbb R\\) differenzierbar in \\(t_0\\) und\n\\((f\\circ g)'(t_0)=f'(g(t_0))\\cdot g'(t_0)\\), wobei “\\(\\cdot\\)” das Skalarprodukt ist.",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Kettenregel"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Kettenregel.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Kettenregel.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Kettenregel"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#definition",
-    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nSeien \\(𝑓 : 𝐷 → R\\) auf \\(𝐷\\) differenzierbar, \\(𝑎, 𝑏 ∈ 𝐷\\) und \\(𝑆[𝑎, 𝑏] ⊆ 𝐷\\). Dann existiert ein \\(𝜉 ∈ 𝑆[𝑎, 𝑏]\\) mit \\[𝑓(𝑏) − 𝑓(𝑎) = 𝑓' (𝜉) · (𝑏 − 𝑎)\\]",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Der Mittelwertsatz"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#folgerung",
-    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#folgerung",
-    "title": "_TEMPLATE",
-    "section": "Folgerung",
-    "text": "Folgerung\n\nIst \\(D\\) ein Gebiet, \\(f:D\\rightarrow\\Bbb R\\) differentierbar auf \\(D\\) und gilt \\(f'(x)=0\\), \\((\\forall x\\in D)\\), so ist \\(f\\) auf \\(D\\) konstant.",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Der Mittelwertsatz"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Der Mittelwertsatz.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Der Mittelwertsatz"
     ]
   },
   {
@@ -785,58 +1197,25 @@
     ]
   },
   {
-    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#definition",
-    "href": "6 Differentialrechnung in Rn/Matrix definit.html#definition",
+    "objectID": "6 Differentialrechnung in Rn/Satz von Taylor.html#definition",
+    "href": "6 Differentialrechnung in Rn/Satz von Taylor.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nDefinition: Eine reelle und symmetrische \\(𝑛 × 𝑛\\)-Matrix \\(𝐴\\) heißt\n\npositiv definit (pd) :\\(\\iff ∀𝑥 ∈ \\Bbb R^ 𝑛 ∖ \\{0\\} : (𝐴𝑥) · 𝑥 &gt; 0.\\)\nnegativ definit (nd) :\\(\\iff ∀𝑥 ∈ \\Bbb R^ 𝑛 ∖ \\{0\\} : (𝐴𝑥) · 𝑥 &lt; 0.\\)\nindefinit (id) :\\(\\iff ∃𝑢, 𝑣 ∈ \\Bbb R^ 𝑛 : (𝐴𝑢) · 𝑢 &gt; 0 \\text{ und } (𝐴𝑣) · 𝑣 &lt; 0.\\)",
+    "text": "Definition\n\nSind \\(𝑓 ∈ 𝐶^2  (𝐷, \\Bbb R), 𝑥0 ∈ 𝐷, ℎ ∈\\Bbb R^ 𝑛\\) und \\(𝑆[𝑥0, 𝑥0 + ℎ] ⊆ 𝐷\\), so existiert ein \\(𝜉 ∈ 𝑆[𝑥0, 𝑥0 + ℎ]\\) mit \\[𝑓(𝑥0 + ℎ) = 𝑓(𝑥0) + ∇𝑓(𝑥0) · ℎ + \\frac{1}{2} (𝐻_𝑓 (𝜉)ℎ) · ℎ\\]. Als letztes benötigen wir ein mehrdimensionales Analogon dafür, wann die „2. Ableitung“ einer Funktion „positiv“ bzw. „negativ“ ist",
     "crumbs": [
       "6 Differentialrechnung in Rn",
-      "Matrix definit"
+      "Satz von Taylor"
     ]
   },
   {
-    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#eigenwerte",
-    "href": "6 Differentialrechnung in Rn/Matrix definit.html#eigenwerte",
-    "title": "_TEMPLATE",
-    "section": "Eigenwerte ????????",
-    "text": "Eigenwerte ????????\n\n\nFür eine reelle und symmetrische \\(𝑛 × 𝑛\\)-Matrix \\(𝐴\\) gilt:\n\n\\(A\\) ist positiv definit \\(\\iff\\) alle Eigenwerte sind positiv\n\\(A\\) ist negativ definit \\(\\iff\\) alle Eigenwerte sind negativ\n\\(A\\) ist indefinit \\(\\iff\\) es gibt positive und negative Eigenwerte",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Matrix definit"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#lol-folgerung",
-    "href": "6 Differentialrechnung in Rn/Matrix definit.html#lol-folgerung",
-    "title": "_TEMPLATE",
-    "section": "Lol Folgerung",
-    "text": "Lol Folgerung\n\npos definit \\(\\implies\\) minimum\nneg definit \\(\\implies\\) maximum\nindefinit \\(\\implies\\) kein extremum",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Matrix definit"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#times-2-spezialfall",
-    "href": "6 Differentialrechnung in Rn/Matrix definit.html#times-2-spezialfall",
-    "title": "_TEMPLATE",
-    "section": "\\(2\\times 2\\) Spezialfall",
-    "text": "\\(2\\times 2\\) Spezialfall\n\nDim 2, \\(H_f=\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\\)\n\ndet \\(H_f&lt;0\\implies\\) indefinit\n\\(det H_f&gt;0\\)\n\n\\(a&gt;0\\) positiv definit\n\\(a&lt;0\\) negativ definit\n\ndet \\(H_f\\)=0 \\(\\implies\\) Keine Aussage",
-    "crumbs": [
-      "6 Differentialrechnung in Rn",
-      "Matrix definit"
-    ]
-  },
-  {
-    "objectID": "6 Differentialrechnung in Rn/Matrix definit.html#siehe-auch",
-    "href": "6 Differentialrechnung in Rn/Matrix definit.html#siehe-auch",
+    "objectID": "6 Differentialrechnung in Rn/Satz von Taylor.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Satz von Taylor.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "6 Differentialrechnung in Rn",
-      "Matrix definit"
+      "Satz von Taylor"
     ]
   },
   {
@@ -906,462 +1285,83 @@
     ]
   },
   {
-    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#definition",
-    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#definition",
+    "objectID": "6 Differentialrechnung in Rn/Gradient.html#definition",
+    "href": "6 Differentialrechnung in Rn/Gradient.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(A=(a_{jk})\\) eine reelle \\(n\\times n\\) Matrix und \\(b_j:I\\rightarrow\\Bbb R\\) stetig. Die betrachten das sogenannte lineare Differentialgleichungssystem\n\\(\\begin{matrix} y'_1(x)=a_{11}y_1(x) + a_{12}y_2(x) + \\dots + a_{1n}y_n(x) + b_1(x) \\\\  y'_2(x)=a_{21}y_1(x) + a_{22}y_2(x) + \\dots + a_{2n}y_n(x) +b_2(x) \\\\ \\dots \\\\  y'_n(x)=a_{n1}y_1(x) + a_{n2}y_2(x) + \\dots + a_{nn}y_n(x)+ b_n(x) \\end{matrix}\\)\nman schreibt dann halt \\(y'(x)=Ay(x)+b(x)\\) (inhomogenes System) oder falls \\(b(x)=0\\) \\(y'(x)=Ay(x)\\) (homogenes System)",
+    "text": "Definition\n\n\\(\\nabla f(x,y)=\\left( f_x(x,y) \\ \\ f_y(x,y) \\right)^T\\)\nDiese Definition gilt dann für egal welche DImension ein Vektor hat",
     "crumbs": [
-      "10 Lineare Systeme mit konstanten Koeffizienten",
-      "lineares Differentialgleichungssystem"
+      "6 Differentialrechnung in Rn",
+      "Gradient"
     ]
   },
   {
-    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#lösung",
-    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#lösung",
-    "title": "_TEMPLATE",
-    "section": "Lösung",
-    "text": "Lösung\n\nIdee: Lösung von dem homogenen System ist:\n\\[e^{xA}=\\sum^\\infty_{k=0}\\frac 1 {k!}(xA)^k\\]Schreibe \\(A\\) über Jordan-Normalform\n\\(A=S^{-1}JS\\)\n\\(\\rightsquigarrow e^{tA}=S^{-1}e^{tJ}S \\rightsquigarrow\\) Rechne \\(S^{-1}e^{tJ}\\).\n\nVorbemerkung\nIst \\(\\lambda\\in\\Bbb R\\) Eigenwert von \\(A\\), \\(v\\in\\Bbb R^n\\setminus\\{0\\}\\) Eigenvektor…..? :(\n\n\nMethode\n\nBestimme alle Eigenwerte \\(\\lambda_1\\dots,\\lambda_r\\) von \\(A\\).\n(d.h. \\(r\\le n\\)) und deren algebraische Vielfachheiten \\(K_1,\\dots,K_r\\). d.h. \\(p(\\lambda)=(-1)^n(\\lambda-\\lambda_1)^{K_1} \\cdot\\dots\\cdot(\\lambda-\\lambda_n)^{K_n}\\)\n Dann nehmen wir alle Eigenwerte, und sortieren sie nach \n\n 1. reele,\n\n 2. rein Komplexe,\n\n 3. komplexe die nicht auch einen realteil haben \n\n 4. komplexe, die konjugiert sind (also negatives Vorzeichen vor dem Imaginärteil)\n\n 5. Werfe die 4. weg und schreibt die in einer Menge $M$ auf.\nWir nehmen uns jetzt einen Beliebigen Eigenwert \\(\\lambda_j\\in M\\) und wir bestimmen eine Basis \\(V_j:=kern(A-\\lambda_jI)^{k_j}\\).\nDies machen wir so:\nBestimme eine Basis von \\(kern (𝐴 − 𝜆_𝑗𝐼)\\), ergänze diese zu einer Basis von \\(kern (𝐴 − 𝜆_𝑗𝐼) ^2,\\dots\\). (bis \\(K_j\\))\nJez hamma basis \\(V_j\\) für alle Eigenwerte \\(\\lambda_j\\) lolz. Setzt \\[y(x):=e^{\\lambda_jx}\\left(v+\\frac x {1!}(A-\\lambda_jI)v+\\frac{x^2}{2!}(A-\\lambda_jI) ^2+\\dots+\\frac{x^{k_j-1}}{(k_j-1)!}(A-\\lambda_jI)^{k_j-1}v\\right)\\] (j ist die Nummer von dem Eigenwert den wir gerade behandeln, wir suchen uns ein \\(\\lambda_j\\) aus und definieren und so dann die Funktion.)\nSo es gibt jetzt zwei Möglichkeiten:\nFall 1:\n\\(y(x)\\) ist Reelwertig, dann ist \\(y(x)\\) eine Lösung des homogenen Systems\nFalls 2:\n\\(y(x)\\) ist komplexwertig, dann zerlege \\(y(x)=y^{(1)}(x)+iy^{(2)}(x)\\)\n\\(y^{(1)},y^{(2)}\\) sind Lösungen des homogenen Systems.\nFühre 3. für alle \\(\\lambda_j\\in M\\) und Basisvektoren \\(v\\) von \\(V_j\\) durch",
-    "crumbs": [
-      "10 Lineare Systeme mit konstanten Koeffizienten",
-      "lineares Differentialgleichungssystem"
-    ]
-  },
-  {
-    "objectID": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#siehe-auch",
-    "href": "10 Lineare Systeme mit konstanten Koeffizienten/lineares Differentialgleichungssystem.html#siehe-auch",
+    "objectID": "6 Differentialrechnung in Rn/Gradient.html#siehe-auch",
+    "href": "6 Differentialrechnung in Rn/Gradient.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "10 Lineare Systeme mit konstanten Koeffizienten",
-      "lineares Differentialgleichungssystem"
+      "6 Differentialrechnung in Rn",
+      "Gradient"
     ]
   },
   {
-    "objectID": "12 Fouriertransformation/Inverse Fouriertranformation.html#definition",
-    "href": "12 Fouriertransformation/Inverse Fouriertranformation.html#definition",
+    "objectID": "7 Differentialrechnung im Rn/Jacobimatrix.html#definition",
+    "href": "7 Differentialrechnung im Rn/Jacobimatrix.html#definition",
     "title": "_TEMPLATE",
     "section": "Definition",
-    "text": "Definition\n\nEs gilt, wenn \\(f:\\Bbb R\\rightarrow\\Bbb C\\) stückweise glatt und absolut integrierbar ist:\n\\(\\forall t\\in\\Bbb R: CH-\\int^\\infty_{-\\infty}\\hat f(x)e^{ist}ds=\\frac1 2(f(t+)+f(t-))\\) und wenn \\(f\\) zusätlich stetig ist, ist das \\(=f(t)\\).",
+    "text": "Definition\n\n\\[\\frac{\\partial x}{\\partial x_0} :=\\frac{\\partial (f_1, \\ldots, f_m)}{\\partial(x_1,\\ldots, x_n)} (x_0) :=J_f(x_0):=\\begin{pmatrix}\\frac{\\partial f_1}{\\partial x_1} (x_0) & \\ldots & \\frac{\\partial f_1}{\\partial x_n} (x_0) \\\\\\vdots & \\ddots & \\vdots \\\\\\frac{\\partial f_m}{\\partial x_1} (x_0) & \\ldots & \\frac{\\partial f_m}{\\partial x_n} (x_0)\\end{pmatrix}\\]\nDiese Matrix nennt man die Jakobimatrix und ja das sind alle Ableitungen drinne :D\nIn der Jakobimatrix",
     "crumbs": [
-      "12 Fouriertransformation",
-      "Inverse Fouriertranformation"
+      "7 Differentialrechnung im Rn",
+      "Jacobimatrix"
     ]
   },
   {
-    "objectID": "12 Fouriertransformation/Inverse Fouriertranformation.html#siehe-auch",
-    "href": "12 Fouriertransformation/Inverse Fouriertranformation.html#siehe-auch",
+    "objectID": "7 Differentialrechnung im Rn/Jacobimatrix.html#siehe-auch",
+    "href": "7 Differentialrechnung im Rn/Jacobimatrix.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "12 Fouriertransformation",
-      "Inverse Fouriertranformation"
+      "7 Differentialrechnung im Rn",
+      "Jacobimatrix"
     ]
   },
   {
-    "objectID": "Testfile.html",
-    "href": "Testfile.html",
-    "title": "_TEMPLATE",
-    "section": "",
-    "text": "Hello this is a test! Will this be displayed in the website?"
-  },
-  {
-    "objectID": "2 Fourrier Reihen/Fourierreihe.html#definition",
-    "href": "2 Fourrier Reihen/Fourierreihe.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nVoraussetzung:\n\\(f:\\Bbb R\\mapsto \\Bbb R\\), und \\(f\\) ist Riemann-Integrierbar und \\(2-\\pi\\)-Periodisch (man kann alles aber auch für jegliche Perioden definierten ofc lolz). Dann gilt:\n\\(f \\text{ \"}=\\text\" \\frac{a_0}{2}+\\sum^\\infty_{n=0}a_ncos(nx)+b_nsin(nx)\\)\n\\(\\implies\\) Fourierreihe\nEs gilt für die Fourierkoeffizienten:\n\\((a_n)_{n\\in\\Bbb N}=\\frac{1}{\\pi}\\int^\\pi_{-\\pi}f(x)cos(nx)dx\\)\n\\((b_n)_{n\\in\\Bbb N}=\\frac{1}{\\pi}\\int^\\pi_{-\\pi}f(x)sin(nx)dx\\)",
-    "crumbs": [
-      "2 Fourrier Reihen",
-      "Fourierreihe"
-    ]
-  },
-  {
-    "objectID": "2 Fourrier Reihen/Fourierreihe.html#wann-konvergiert-die-fourierreihe",
-    "href": "2 Fourrier Reihen/Fourierreihe.html#wann-konvergiert-die-fourierreihe",
-    "title": "_TEMPLATE",
-    "section": "Wann konvergiert die Fourierreihe?",
-    "text": "Wann konvergiert die Fourierreihe?\n\n\n\\(f\\) ist stückweise glatt \\(\\implies\\) Fourierreihe konvergiert (nicht unbedingt gegen \\(f\\) xd, an den Sprungstellen (falls es sie gibt) Konvergiert die Funktion (aber auch bei allen Punkten eigentlich) gegen den durchschnitt des links- und rechtsseitigen Grenzwertes)\n\\(f\\) ist stetig \\(\\implies\\) Fourierreihe konvergiert gegen \\(f\\)",
-    "crumbs": [
-      "2 Fourrier Reihen",
-      "Fourierreihe"
-    ]
-  },
-  {
-    "objectID": "2 Fourrier Reihen/Fourierreihe.html#weiterer-wichtiger-satz",
-    "href": "2 Fourrier Reihen/Fourierreihe.html#weiterer-wichtiger-satz",
-    "title": "_TEMPLATE",
-    "section": "Weiterer wichtiger Satz",
-    "text": "Weiterer wichtiger Satz\n\n\nIst \\(f\\) gerade, so beschreiben wir die Fourierreihe von \\(f\\) nur durch Cosinusterme\nIst \\(f\\) ungerade, so beschreiben wir die Fourierreihe von \\(f\\) nur durch Sinusterme",
-    "crumbs": [
-      "2 Fourrier Reihen",
-      "Fourierreihe"
-    ]
-  },
-  {
-    "objectID": "2 Fourrier Reihen/Fourierreihe.html#siehe-auch",
-    "href": "2 Fourrier Reihen/Fourierreihe.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKomplexe Fourierreihen",
-    "crumbs": [
-      "2 Fourrier Reihen",
-      "Fourierreihe"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#definition",
-    "href": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nMan kann sich das richtig gut in Polarkoordinaten vorstellen. Seien \\(z=|z|e^{i\\varphi}\\) sowie \\(w=|w|e^{i\\theta}\\). Es gilt: \\(zw=|z|e^{i\\varphi}|w|e^{i\\theta}=|z||w|e^{i(\\varphi+\\theta)}\\).",
-    "crumbs": [
-      "1 Analysis in C",
-      "Multiplikation komplexer Zahlen easy"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#siehe-auch",
-    "href": "1 Analysis in C/Multiplikation komplexer Zahlen easy.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "1 Analysis in C",
-      "Multiplikation komplexer Zahlen easy"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Komplexe Reihen.html#definition",
-    "href": "1 Analysis in C/Komplexe Reihen.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nFür eine Folge \\((a_n)\\subseteq\\Bbb C\\) sei \\(s_n=a_1+a_2+\\dots+a_n, n\\in\\Bbb N\\).\nDie Folge \\((s_n)\\) heißt unendliche Reihe und wird mit \\(\\sum^\\infty_{n=1}a_n\\) bezeichnet.\n\n\\(\\sum^\\infty_{n=1}a_n\\) heißt konvergent \\(\\iff\\) \\((s_n)\\) konvergiert.\ndivergent vv\n\\(\\sum^\\infty_{n=1}a_n\\) heißt dementsprechend Reihenwert (Siehe HM1)",
-    "crumbs": [
-      "1 Analysis in C",
-      "Komplexe Reihen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Komplexe Reihen.html#bemerkung",
-    "href": "1 Analysis in C/Komplexe Reihen.html#bemerkung",
-    "title": "_TEMPLATE",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nDefinitionen und Satze aus HM1 Kapitel 3&4 geslten wörtlich auch in \\(\\Bbb C\\). Ausnahme: Definitionen und Sätze in denen die Anordnung von \\(\\Bbb R\\) eine Rolle spielt (Monotonie, Leibnitz)",
-    "crumbs": [
-      "1 Analysis in C",
-      "Komplexe Reihen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Komplexe Reihen.html#siehe-auch",
-    "href": "1 Analysis in C/Komplexe Reihen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKomplexe Potenzreihen\nKomplexe Fourierreihen",
-    "crumbs": [
-      "1 Analysis in C",
-      "Komplexe Reihen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Polarkoordinaten.html#definition",
-    "href": "1 Analysis in C/Polarkoordinaten.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nNormalerweise beschreibt man koordinaten durch einen \\(x\\) und einen \\(y\\)-Wert. Man kann einen Pùnkt aber durch einen Winkel und eine Länge beschreiben. Mit der Eulerschen Formel kann man das dann in komplexen Zahlen cool durchführen xdd.\nDen Winkel eines Punktes \\(z\\) in Polarkoordinaten nennt man Argument von \\(z\\) und schreibt\n\\(\\varphi = arg(z)\\).",
-    "crumbs": [
-      "1 Analysis in C",
-      "Polarkoordinaten"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Polarkoordinaten.html#siehe-auch",
-    "href": "1 Analysis in C/Polarkoordinaten.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nMultiplikation komplexer Zahlen easy",
-    "crumbs": [
-      "1 Analysis in C",
-      "Polarkoordinaten"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#definition",
-    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nEine Folge \\((z_n)\\subseteq\\Bbb C\\) heißt konvergent, falls ein \\(z\\in\\Bbb C\\) existiert mit \\(|z_n-z|\\rightarrow 0\\).\nIn diesem Fall heißt \\(z\\) Grenzwert von \\((z_n)\\).",
-    "crumbs": [
-      "1 Analysis in C",
-      "Konvergenz Komplexer Folgen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#bemerkung",
-    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#bemerkung",
-    "title": "_TEMPLATE",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nAus Definition des Betrags bzw. Konvergenz folgt für \\((z_n)\\subseteq\\Bbb C\\) und \\(z\\in\\Bbb C\\):\\[z_n\\rightarrow z\\iff \\mathfrak R(z_n)\\rightarrow\\mathfrak R(z) \\land\\mathfrak I(z_n)\\rightarrow\\mathfrak I(z)\\]",
-    "crumbs": [
-      "1 Analysis in C",
-      "Konvergenz Komplexer Folgen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#random-kriterien",
-    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#random-kriterien",
-    "title": "_TEMPLATE",
-    "section": "Random Kriterien",
-    "text": "Random Kriterien\n\n\nFür \\((z_n),(w_n)\\subseteq\\Bbb C\\) mit \\(z_n\\rightarrow z\\) und \\(w_n\\rightarrow w\\). Für \\(n\\rightarrow\\infty\\) gilt;\n\n\\(z_nw_n\\rightarrow zw\\)\nIst \\(z\\not=0\\). so ex. ein \\(n_0\\in\\Bbb N\\) mit \\(z_n\\not=0\\) ffa \\(n\\) und \\(\\frac{1}{z_n}\\rightarrow\\frac{1}{z}\\).",
-    "crumbs": [
-      "1 Analysis in C",
-      "Konvergenz Komplexer Folgen"
-    ]
-  },
-  {
-    "objectID": "1 Analysis in C/Konvergenz Komplexer Folgen.html#siehe-auch",
-    "href": "1 Analysis in C/Konvergenz Komplexer Folgen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKomplexe Reihen",
-    "crumbs": [
-      "1 Analysis in C",
-      "Konvergenz Komplexer Folgen"
-    ]
-  },
-  {
-    "objectID": "KLAUSURINFOS.html#definition",
-    "href": "KLAUSURINFOS.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nDatum: 19.20\n\nNur Inhalte des Skripts, die auch in der Vorlesung behandelt wurden + Inhalte auf den Übungsblättern\nGenauer: Kein Bernoulli - bzw Ricatti DGL\nKein Kapitel 22\nNichts hinter Satz 23.4\n\nLernen vorgehen z.b.: Skript vorlesen, nochmal die Übungsaufgaben Rechnen, überlegen wo wir viel Zeit aufgewendet haben, es gibt in Altklausuren Aufgaben, die wir nicht gemacht haben die wir nicht lösen können.\nEs kommt nur eine kleine DGL Aufgabe\nEs ist kein cheat-sheet erlaubt, es geht auch darum, dass wir Sachen auch auswendig können und, dass die Klausur nicht so angepasst schwierig ist.\nDie Klausur wird ähnlich wie bei Herzhog.\nTipps:\nVORRAUSSETZUNGEN NICHT VERGESSEN\nSatz über implizit definierte Funktionen != Umkehrsatz\n2.039 für fragen Mint Kolleg Dozent",
-    "crumbs": [
-      "KLAUSURINFOS"
-    ]
-  },
-  {
-    "objectID": "KLAUSURINFOS.html#siehe-auch",
-    "href": "KLAUSURINFOS.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "KLAUSURINFOS"
-    ]
-  },
-  {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#definition",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\n\\[y'(x)=f(x)\\cdot g(y(x))\\]\nSo Gleichungen kann man lösen rofl\nSeien \\(I_1,I_2\\subseteq\\) Intervalle und \\(f\\in C(I_1,\\Bbb R)\\), \\(g\\in C(I_2,\\Bbb R)\\). Die DGL nennt man dann eine Differentialgleichungen mit getrennten Veränderlichen. Gilt \\(g(y)\\not=0\\) \\(\\forall y\\in I_2\\), so erhält man eine Lsg. von (1). indem man \\[\\int\\frac{1}{g(y)}dy=\\int f(x)dx+c\\]nach y auflöst.\nOkaydokay, was ist mit dem Anfangswertproblem?\nNaja, das kriegt man hin, indem man das \\(c\\) auf die Gegebenheit des Anfangswertproblem anpasst.",
-    "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Differentialgleichungen mit getrennten Veränderlichen"
-    ]
-  },
-  {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#siehe-auch",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Differentialgleichungen mit getrennten Veränderlichen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Differentialgleichungen mit getrennten Veränderlichen"
-    ]
-  },
-  {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#definition",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(I\\subseteq\\Bbb R\\) ein INtervall und \\(\\alpha, s: I\\rightarrow\\Bbb R\\) stetig. Die Differentialgleichung\\[y'(x)=\\alpha(x)y(x)+s(x)\\]heißt eine lineare Diffentialgleichung und \\(s\\) heißt Störfunktion und wenn \\(s(x)\\) die Nullfunktion ist ist die Gleichung homogen und wenn \\(s(x)\\) nicht die Nullfunktion ist ist heißt die DGL inhomogen.",
-    "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Lineare Differentialgleichungen"
-    ]
-  },
-  {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#lösungsmethoden",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#lösungsmethoden",
-    "title": "_TEMPLATE",
-    "section": "Lösungsmethoden",
-    "text": "Lösungsmethoden\n\n\\(\\beta\\) sei im folgenden eine Stammfunktion von \\(\\alpha\\) auf \\(I\\)\n\n\\(y\\) ist eine Lösung einer homogenen DGL auf \\(I\\), wenn \\(\\iff\\exists c\\in\\Bbb R:y(x)=ce^{\\beta(x)}\\).\nSei \\(𝑦𝑝\\) eine spezielle Lösung von einer inhomogenen DGL auf 𝐼. Dann gilt: 𝑦 ist eine Lösung von der DGL auf \\(𝐼 \\iff ∃𝑐 ∈ R : 𝑦(𝑥) = 𝑦𝑝(𝑥) + 𝑐𝑒^{𝛽(𝑥)} .\\)\nVariation der Konstanten: Der Ansatz \\[y_p(x)=c(x)e^{\\beta(x)}\\]mit einer noch unbekannten Funktion \\(c\\) führt auf eine spezielle Lösung einer inhomogenen DGL auf \\(I\\).",
-    "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Lineare Differentialgleichungen"
-    ]
-  },
-  {
-    "objectID": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#siehe-auch",
-    "href": "9 Spezielle Differentialgleichungen 1. Ordnung/Lineare Differentialgleichungen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "9 Spezielle Differentialgleichungen 1. Ordnung",
-      "Lineare Differentialgleichungen"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#definition-bbb-rn",
-    "href": "3 Der Raum Rn/Definitionen des Rn.html#definition-bbb-rn",
-    "title": "_TEMPLATE",
-    "section": "Definition \\(\\Bbb R^n\\)",
-    "text": "Definition \\(\\Bbb R^n\\)\n\n\\(\\mathbb{R}^n := \\{ (x_1, \\ldots, x_n) : x_1, \\ldots, x_n \\in \\mathbb{R} \\}\\)",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Definitionen des $\\Bbb R^n$"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#definition-operationen-auf-bbb-rn",
-    "href": "3 Der Raum Rn/Definitionen des Rn.html#definition-operationen-auf-bbb-rn",
-    "title": "_TEMPLATE",
-    "section": "Definition Operationen auf \\(\\Bbb R^n\\)",
-    "text": "Definition Operationen auf \\(\\Bbb R^n\\)\n\n\nDie Zahl \\(x \\cdot y := x \\cdot y := x_1 y_1 + \\ldots + x_n y_n\\) wird Skalarprodukt von \\(x\\) und \\(y\\) genannt.\nDie Zahl \\(\\| x \\| := \\sqrt{x \\cdot x} = \\left( x_1^2 + \\ldots + x_n^2 \\right)^{\\frac{1}{2}}\\) wird als die Norm oder die Länge von \\(x\\) bezeichnet. Bemerke: \\(\\| x \\|^2 = x \\cdot x\\). Im Falle von \\(n = 1\\) gilt \\(\\| x \\| = |x|\\).\nDie Zahl \\(\\| x - y \\|\\) wird als Abstand zwischen \\(x\\) und \\(y\\) bezeichnet. Bemerke: \\(\\| x - y \\| = \\| y - x \\|\\).",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Definitionen des $\\Bbb R^n$"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#eigenschaften-der-operationen",
-    "href": "3 Der Raum Rn/Definitionen des Rn.html#eigenschaften-der-operationen",
-    "title": "_TEMPLATE",
-    "section": "Eigenschaften der Operationen",
-    "text": "Eigenschaften der Operationen\n\n\n\\((x + y) \\cdot z = x \\cdot z + y \\cdot z\\), \\(x \\cdot y = y \\cdot x\\).\n\\((\\alpha x) \\cdot y = \\alpha (x \\cdot y) = x \\cdot (\\alpha y)\\).\n\\(\\| x \\| \\geq 0\\); \\(\\| x \\| = 0 \\Leftrightarrow x = 0 = (0, \\ldots, 0)\\).\n\\(\\| \\alpha x \\| = |\\alpha| \\| x \\|\\).\n\\(|x \\cdot y| \\leq \\| x \\| \\| y \\|\\) (Cauchy-Schwarz-Ungleichung (CSU)).\n\\(\\| x + y \\| \\leq \\| x \\| + \\| y \\|\\) (Dreiecksungleichung).\n\\(| \\| x \\| - \\| y \\| | \\leq \\| x - y \\|\\).\n\\(\\forall j \\in \\{1, \\ldots, n\\} : |x_j| \\leq \\| x \\| \\leq \\sum_{k=1}^n |x_k|\\).\ndie CSU gilt genau dann Gleichheit, wenn \\(x\\) und \\(y\\) linear abhängig sind.",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Definitionen des $\\Bbb R^n$"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Definitionen des Rn.html#siehe-auch",
-    "href": "3 Der Raum Rn/Definitionen des Rn.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nEpsilon-Umgebung in Rn\nMatrix\nPartielle Ableitung",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Definitionen des $\\Bbb R^n$"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Matrix.html#definition",
-    "href": "3 Der Raum Rn/Matrix.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nEs seien \\(l, m, n \\in \\mathbb{N}\\) und \\(A = \\begin{pmatrix} a_{11} & \\ldots & a_{1n} \\\\ \\vdots & \\ddots & \\vdots \\\\ a_{m1} & \\ldots & a_{mn} \\end{pmatrix}\\) eine reelle \\(m \\times n\\)-Matrix.",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Matrix"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Matrix.html#norm-einer-matrix",
-    "href": "3 Der Raum Rn/Matrix.html#norm-einer-matrix",
-    "title": "_TEMPLATE",
-    "section": "Norm einer Matrix",
-    "text": "Norm einer Matrix\n\nEine Matrix ist ja auch ein Vektor nhhh weil die einzelnen Komponenten einer Matrix linear sind mit + und * . Also ist die Norm einer Matrix genau wie man es sich vorstellt\n\\(||A||=\\left(\\sum^m_{j=1}\\sum^n_{k=1}a^2_{jk}\\right)^{\\frac{1}{2}}\\)\nWir gehen alle Einträge durch, quadrieren sie, summieren sie, und ziehen dann die Wurzel.\nEs gilt auch eine CSU bei Matrizen:\n\\(||AB||\\le||A|| \\ ||B||\\).",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Matrix"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Matrix.html#matrix-vektorprodukt",
-    "href": "3 Der Raum Rn/Matrix.html#matrix-vektorprodukt",
-    "title": "_TEMPLATE",
-    "section": "Matrix-Vektorprodukt",
-    "text": "Matrix-Vektorprodukt\n\nWir multiplizieren eine Matrix mit einem Vektor wie wir es aus der LA kennen.\nEs folgt aus der CSU:\n\\(||Ax||\\le||A|| \\ ||x||\\)\nZudem gilt logischerweise:\n\\(||A||=||A^T||\\).",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Matrix"
-    ]
-  },
-  {
-    "objectID": "3 Der Raum Rn/Matrix.html#siehe-auch",
-    "href": "3 Der Raum Rn/Matrix.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3 Der Raum Rn",
-      "Matrix"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "_TEMPLATE",
-    "section": "",
-    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung “Höhere Mathematik 2”! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im \\(\\Bbb R^n\\) hier ist alles dabei, was für die Vorlesung relevant war.\nAber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.\nViel Erfolg beim Lernen und viel Spaß beim Durchklicken!\nInfos zur Klausur:\nKLAUSURINFOS\nLink zu HM1"
-  },
-  {
-    "objectID": "index.html#höhere-mathematik-2",
-    "href": "index.html#höhere-mathematik-2",
-    "title": "_TEMPLATE",
-    "section": "",
-    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen zur Vorlesung “Höhere Mathematik 2”! Hier findest du die wichtigsten Inhalte, die im Sommermesemester 24 behandelt wurden, übersichtlich in verschiedene Kategorien unterteilt. Von der Analysis in komplexen Zahlen, über Fourier-Reihen bis hin zur Differentialrechnung und Integration im \\(\\Bbb R^n\\) hier ist alles dabei, was für die Vorlesung relevant war.\nAber Achtung: Diese Notizen sind keine komplette Zusammenfassung der gesamten Vorlesung und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Unterstützung beim Lernen dienen. Für eine tiefere Auseinandersetzung mit den Themen lohnt es sich, zusätzlich die Vorlesungen, Skripte oder Lehrbücher zu konsultieren.\nViel Erfolg beim Lernen und viel Spaß beim Durchklicken!\nInfos zur Klausur:\nKLAUSURINFOS\nLink zu HM1"
-  },
-  {
-    "objectID": "8 Intergration in Rn/Messbare Mengen.html#definition",
-    "href": "8 Intergration in Rn/Messbare Mengen.html#definition",
-    "title": "_TEMPLATE",
-    "section": "Definition",
-    "text": "Definition\n\nSei \\(B \\subseteq \\Bbb R ^n\\) beschränkt.\n\\(c_B(x):=\\begin{cases} 1 & x\\in B \\\\ 0 & x\\not\\in B \\end{cases}\\) heißt charakteristische Funktion (von \\(B\\)).\n\\(B\\) heißt messbar \\(\\iff\\) \\(c_B(x)\\in R(I)\\) mit \\(B\\subseteq I\\).\nIn dem Fall heißt \\(|B|:=\\int_Ix_B(x)dx\\) der Inhalt der Menge",
-    "crumbs": [
-      "8 Intergration in Rn",
-      "Messbare Mengen"
-    ]
-  },
-  {
-    "objectID": "8 Intergration in Rn/Messbare Mengen.html#siehe-auch",
-    "href": "8 Intergration in Rn/Messbare Mengen.html#siehe-auch",
-    "title": "_TEMPLATE",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "8 Intergration in Rn",
-      "Messbare Mengen"
-    ]
-  },
-  {
-    "objectID": "8 Intergration in Rn/Substitutionsregel.html#vorraussetzung",
-    "href": "8 Intergration in Rn/Substitutionsregel.html#vorraussetzung",
+    "objectID": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#vorraussetzung",
+    "href": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#vorraussetzung",
     "title": "_TEMPLATE",
     "section": "Vorraussetzung",
-    "text": "Vorraussetzung\n\n\\(G\\subseteq\\Bbb R^n\\) offen, \\(g: G\\rightarrow\\Bbb R^n\\) stetig partiell differenzierbar; \\(B\\subseteq G\\) kompakt, \\(g\\) auf \\(B^\\circ\\) injektiv, \\(\\det g'(y)\\not=0\\forall y\\in B^\\circ\\).",
+    "text": "Vorraussetzung\n\nEs sei \\((𝑥_0, 𝑦_0) ∈ 𝐷\\), \\(𝑓(𝑥_0, 𝑦_0) = 0\\) und \\(\\det \\frac{∂𝑓}{∂𝑦} (𝑥_0, 𝑦_0) \\not=0\\).\nDann gilt:\n\n\\(𝑈_𝛿(𝑥_0) × 𝑈_𝜂(𝑦_0) ⊆ 𝐷,\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) ∃_1𝑦 =: 𝑔(𝑥) ∈ 𝑈_𝜂(𝑦_0) : 𝑓(𝑥, 𝑦) = 0,\\)\n\\(𝑔 ∈ 𝐶 ^1 (𝑈_𝛿(𝑥_0), \\Bbb R^ 𝑝 ),\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) : \\det\\frac{∂𝑓}{∂𝑦} (𝑥, 𝑔(𝑥)) \\not =0\\)\n\\(∀𝑥 ∈ 𝑈_𝛿(𝑥_0) : 𝑔 ' (𝑥) = − (︃ \\frac{∂𝑓}{∂𝑦} (𝑥, 𝑔(𝑥)))︃^{−1} · (︃ \\frac{∂𝑓}{∂𝑥}(𝑥, 𝑔(𝑥)))\\)",
     "crumbs": [
-      "8 Intergration in Rn",
-      "Substitutionsregel"
+      "7 Differentialrechnung im Rn",
+      "Satz über implizit Definierte Funktionen"
     ]
   },
   {
-    "objectID": "8 Intergration in Rn/Substitutionsregel.html#regel",
-    "href": "8 Intergration in Rn/Substitutionsregel.html#regel",
-    "title": "_TEMPLATE",
-    "section": "Regel",
-    "text": "Regel\n\nDann ist \\(g(B)\\) kompakt und messbar für \\(f\\in C(g(B))\\)\\[\\int_{g(B)}f(y)dy=\\int_Bf(g(x))|\\det g'(x)|dx\\]",
-    "crumbs": [
-      "8 Intergration in Rn",
-      "Substitutionsregel"
-    ]
-  },
-  {
-    "objectID": "8 Intergration in Rn/Substitutionsregel.html#siehe-auch",
-    "href": "8 Intergration in Rn/Substitutionsregel.html#siehe-auch",
+    "objectID": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#siehe-auch",
+    "href": "7 Differentialrechnung im Rn/Satz über implizit Definierte Funktionen.html#siehe-auch",
     "title": "_TEMPLATE",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "8 Intergration in Rn",
-      "Substitutionsregel"
+      "7 Differentialrechnung im Rn",
+      "Satz über implizit Definierte Funktionen"
     ]
+  },
+  {
+    "objectID": "TEMPLATES/-.html#definition",
+    "href": "TEMPLATES/-.html#definition",
+    "title": "_TEMPLATE",
+    "section": "Definition",
+    "text": "Definition"
+  },
+  {
+    "objectID": "TEMPLATES/-.html#siehe-auch",
+    "href": "TEMPLATES/-.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
   }
 ]
