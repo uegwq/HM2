@@ -19,8 +19,8 @@ Für eine reelle und symmetrische $𝑛 × 𝑛$-Matrix $𝐴$ gilt:
 3. $A$ ist indefinit $\iff$ es gibt positive und negative Eigenwerte
 ## Lol Folgerung
 ***
-pos definit $\implies$ maximum
-neg definit $\implies$ minimium
+pos definit $\implies$ minimum
+neg definit $\implies$ maximum
 indefinit $\implies$ kein extremum
 ## $2\times 2$ Spezialfall
 ***
