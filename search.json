@@ -533,7 +533,7 @@
     "href": "6 Differentialrechnung in Rn/Richtungsableitung.html#richtungsableitung-1",
     "title": "_TEMPLATE",
     "section": "Richtungsableitung",
-    "text": "Richtungsableitung\n\nSeien \\(x_0\\in D\\) und \\(a\\in\\Bbb R^n\\) eine Richtung. Die Funktion \\(f\\) heißt in \\(x_0\\) in Richtung \\(a\\) differenzierbar, falls der Grenzwert \\[\\frac{\\partial f}{\\partial x}= \\lim_{t\\rightarrow 0}\\frac{f(x_0+ta)-f(x_0)}{t}\\] existiert.\nIn diesem Fall heißt \\(\\frac{\\partial f}{\\partial x}(x_0)\\) Richtungsableitung von f in \\(x_0\\) in Richtung \\(a\\).",
+    "text": "Richtungsableitung\n\nSeien \\(x_0\\in D\\) und \\(a\\in\\Bbb R^n\\) eine Richtung. Die Funktion \\(f\\) heißt in \\(x_0\\) in Richtung \\(a\\) differenzierbar, falls der Grenzwert \\[\\frac{\\partial f}{\\partial a}= \\lim_{t\\rightarrow 0}\\frac{f(x_0+ta)-f(x_0)}{t}\\] existiert.\nIn diesem Fall heißt \\(\\frac{\\partial f}{\\partial x}(x_0)\\) Richtungsableitung von f in \\(x_0\\) in Richtung \\(a\\).",
     "crumbs": [
       "6 Differentialrechnung in Rn",
       "Richtungsableitung"
@@ -615,6 +615,20 @@
       "7 Differentialrechnung im Rn",
       "Der Umkehrsatz"
     ]
+  },
+  {
+    "objectID": "HM2 Bonustutorium.html#themen",
+    "href": "HM2 Bonustutorium.html#themen",
+    "title": "_TEMPLATE",
+    "section": "Themen",
+    "text": "Themen\n\n\nFouriertransformationen\n\nPolar & Kugelkoordinaten\nLineare DGL - Systeme\nGleichmäßige Stetigkeit\npunktweise / gleichmäßige Konvergenz\nimplizite Funktionen\nGrenzwerte im Mehrdimensionalen"
+  },
+  {
+    "objectID": "HM2 Bonustutorium.html#siehe-auch",
+    "href": "HM2 Bonustutorium.html#siehe-auch",
+    "title": "_TEMPLATE",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
   },
   {
     "objectID": "7 Differentialrechnung im Rn/Differenzierbarkeit.html#definition",
@@ -797,7 +811,7 @@
     "href": "6 Differentialrechnung in Rn/Matrix definit.html#lol-folgerung",
     "title": "_TEMPLATE",
     "section": "Lol Folgerung",
-    "text": "Lol Folgerung\n\npos definit \\(\\implies\\) maximum\nneg definit \\(\\implies\\) minimium\nindefinit \\(\\implies\\) kein extremum",
+    "text": "Lol Folgerung\n\npos definit \\(\\implies\\) minimum\nneg definit \\(\\implies\\) maximum\nindefinit \\(\\implies\\) kein extremum",
     "crumbs": [
       "6 Differentialrechnung in Rn",
       "Matrix definit"
